@@ -1,0 +1,657 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<data>
+	
+	<staticnames>
+		<menu>
+			<item margin='1' lnk='/yachts/' typ='gallery'>
+				YATLAR
+			</item>
+			<item margin='-2' lnk='/about/' typ='about'>
+				HAKKINDA
+			</item>
+			<item margin='-2' lnk='/news/' typ='news'>
+				HABERLER
+			</item>
+			<item margin='-2' lnk='/contact/' typ='contact'>
+				İLETİŞİM
+			</item>
+		</menu>
+		<language>
+			<item url='http://www.aslifelah.com/eng/'>
+				English
+			</item>
+			<item url='http://www.aslifelah.com/it/'>
+				Italiano
+			</item>
+		</language>
+		<yacht>
+			<item ids='length'>
+				Tam Boy
+			</item>
+			<item ids='lengthofhull'>
+				Tekne Boyu
+			</item>
+			<item ids='beam'>
+				Tam Genişlik
+			</item>
+			<item ids='maxspeed'>
+				Maksimum Hız
+			</item>
+			<item ids='exterior'>
+				DIŞ FOTOĞRAFLAR
+			</item>
+			<item ids='interior'>
+				İÇ FOTOĞRAFLAR
+			</item>
+			<item ids='layout'>
+				PLANLAR
+			</item>
+			<item ids='back'>
+				GERİ DÖN
+			</item>
+		</yacht>
+	</staticnames>
+	
+	
+	
+	<productlabels>
+		<label thumbnail='itama.png'>
+			itama
+		</label>
+		<label thumbnail='numarine.png'>
+			numarine
+		</label>
+		<label thumbnail='pershing.png'>
+			pershing
+		</label>
+	</productlabels>
+	
+	
+	
+	<page lnk='/about/'>
+		
+		<column id='left'>
+			<image height='153'>
+				aslifelah.jpg
+			</image>
+			<text>
+				<![CDATA[<p>1980'de İzmir'de doğdu. İzmir Tevfik Fikret Lisesi'nde okudu. Bilkent Üniversitesi İç Mimarlık ve Çevre Tasarımı'ndan mezun olduktan sonra Politecnico di Milano'da Yacht Design üzerine yüksek lisans eğitimini tamamladı.</p><p>3 sene Ferretti Group'a bağlı Itama-Pershing'te İç Tasarım Yöneticisi ve Proje Yöneticisi olarak görev aldı.Türkiye'ye döndüğünde 1 sene Numarine'de Proje Yöneticisi olarak çalıştı.Bugün halen harici olarak proje yöneticiliği, danışmanlık ve tasarım hizmetleri vermektedir.</p>]]>
+			</text>
+			<links>
+				
+			</links>
+		</column>
+		
+		<column id='right'>
+			<image height='153'>
+				aslifelahco.jpg
+			</image>
+			<text>
+				<![CDATA[Aslı Felah is vero eos et accusamus et Ousto Edio dignissimos ducimus qui blanditiis, praesentium.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque... Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo.]]>
+			</text>
+			<links>
+				<link lbl='aslifelahco.com'>
+					www.aslifelahco.com
+				</link>
+			</links>
+		</column>
+		
+	</page>
+	
+	
+	
+	<page lnk='/news/'> 
+		<new> 
+			<date></date> 
+			<txt> </txt> 
+			<lnk>http://www.cmmyachtservice.com/cmmannunci/</lnk> 
+		</new> 
+		
+	</page>
+	
+	
+	
+	<page lnk='/contact/'> 
+		
+		<pageitem lbl='E-Mail' icon=''>asli@aslifelah.com</pageitem> 
+		<pageitem lbl='Phone' icon=''>+90 532 520.77.56</pageitem> 
+		<pageitem lbl='Address' icon=''>Ergin sok. Pirelli Sitesi A Blok No:23/4 Etiler/İstanbul/Turkey</pageitem> 
+		<pageitem lbl='Skype' icon='skype.png'>aslifelah</pageitem> 
+		
+	</page>
+	
+	<page lnk='/yachts/'>
+		
+		
+		<label name='itama'> 
+			<product lnk='/yachts/itama-0/' typ='product'> 
+				<name> 
+					<![CDATA['40]]> 
+				</name> 
+				<category> 
+					0
+				</category> 
+				<thumbnail width='100'> 
+					itama-40-thumbnail.png
+				</thumbnail> 
+				<property> 
+					<![CDATA[13.36m / 43'10"]]> 
+				</property> 
+				<property> 
+					<![CDATA[12.25m / 40'2"]]> 
+				</property> 
+				<property> 
+					<![CDATA[3.95m / 13']]> 
+				</property> 
+				<property> 
+					<![CDATA[34 deniz mili]]> 
+				</property> 
+				<link> 
+					<![CDATA[www.itama-yacht.com]]> 
+				</link> 
+				<gallery category='0'> 
+					<image> 
+						i40-ex-1.jpg
+					</image> 
+					<image> 
+						i40-ex-2.jpg
+					</image> 
+					<image> 
+						i40-ex-3.jpg
+					</image> 
+					<image> 
+						i40-ex-4.jpg
+					</image> 
+				</gallery> 
+				<gallery category='1'> 
+					<image> 
+						i40-in-1.jpg
+					</image> 
+					<image> 
+						i40-in-2.jpg
+					</image> 
+					<image> 
+						i40-in-3.jpg
+					</image> 
+					<image> 
+						i40-in-4.jpg
+					</image> 
+					<image> 
+						i40-in-5.jpg
+					</image> 
+					<image> 
+						i40-in-6.jpg
+					</image> 
+				</gallery> 
+				<gallery category='2'> 
+					<image> 
+						i40-plan-1.jpg
+					</image> 
+					<image> 
+						i40-plan-2.jpg
+					</image> 
+					<image> 
+						i40-plan-3.jpg
+					</image> 
+				</gallery> 
+			</product> 
+		
+			<product lnk='/yachts/itama-50/' typ='product'> 
+				<name> 
+					<![CDATA['50]]> 
+				</name> 
+				<category> 
+					0
+				</category> 
+				<thumbnail width='125'> 
+					itama-50-thumbnail.png
+				</thumbnail> 
+				<property> 
+					<![CDATA[16.14m / 52'11"]]> 
+				</property> 
+				<property> 
+					<![CDATA[15.25m / 50']]> 
+				</property> 
+				<property> 
+					<![CDATA[4.61m / 15'1"]]> 
+				</property> 
+				<property> 
+					<![CDATA[34kn]]> 
+				</property> 
+				<link> 
+					<![CDATA[www.itama-yacht.com]]> 
+				</link> 
+				<gallery category='0'> 
+					<image> 
+						i50-ex-1.jpg
+					</image> 
+					<image> 
+						i50-ex-2.jpg
+					</image> 
+					<image> 
+						i50-ex-3.jpg
+					</image> 
+					<image> 
+						i50-ex-4.jpg
+					</image> 
+					<image> 
+						i50-ex-5.jpg
+					</image> 
+				</gallery> 
+				<gallery category='1'> 
+					<image> 
+						i50-in-1.jpg
+					</image> 
+					<image> 
+						i50-in-2.jpg
+					</image> 
+					<image> 
+						i50-in-3.jpg
+					</image> 
+					<image> 
+						i50-in-4.jpg
+					</image> 
+					<image> 
+						i50-in-5.jpg
+					</image> 
+					<image> 
+						i50-in-6.jpg
+					</image> 
+					<image> 
+						i50-in-7.jpg
+					</image> 
+					<image> 
+						i50-in-8.jpg
+					</image> 
+				</gallery> 
+				<gallery category='2'> 
+					<image> 
+						i50-plan-1.jpg
+					</image> 
+					<image> 
+						i50-plan-2.jpg
+					</image> 
+					<image> 
+						i50-plan-3.jpg
+					</image> 
+				</gallery> 
+			</product> 
+		
+			<product lnk='/yachts/itama-55/' typ='product'> 
+				<name> 
+					<![CDATA['55]]> 
+				</name> 
+				<category> 
+					0
+				</category> 
+				<thumbnail width='137'> 
+					itama-55-thumbnail.png
+				</thumbnail> 
+				<property> 
+					<![CDATA[18.82m / 61'9"]]> 
+				</property> 
+				<property> 
+					<![CDATA[17m / 55'9"]]> 
+				</property> 
+				<property> 
+					<![CDATA[4.75m / 15'7"]]> 
+				</property> 
+				<property> 
+					<![CDATA[37kn]]> 
+				</property> 
+				<link> 
+					<![CDATA[www.itama-yacht.com]]> 
+				</link> 
+				<gallery category='0'> 
+					<image> 
+						i55-ex-1.jpg
+					</image> 
+					<image> 
+						i55-ex-2.jpg
+					</image> 
+					<image> 
+						i55-ex-3.jpg
+					</image> 
+					<image> 
+						i55-ex-4.jpg
+					</image> 
+					<image> 
+						i55-ex-5.jpg
+					</image> 
+				</gallery> 
+				<gallery category='1'> 
+					<image> 
+						i55-in-2.jpg
+					</image> 
+					<image> 
+						i55-in-3.jpg
+					</image> 
+					<image> 
+						i55-in-4.jpg
+					</image> 
+					<image> 
+						i55-in-5.jpg
+					</image> 
+					<image> 
+						i55-in-6.jpg
+					</image> 
+					<image> 
+						i55-in-7.jpg
+					</image> 
+					<image> 
+						i55-in-8.jpg
+					</image> 
+				</gallery> 
+				<gallery category='2'> 
+					<image> 
+						i55-plan-1.jpg
+					</image> 
+					<image> 
+						i55-plan-2.jpg
+					</image> 
+					<image> 
+						i55-plan-3.jpg
+					</image> 
+				</gallery> 
+			</product> 
+		
+			<product lnk='/yachts/itama-75/' typ='product'> 
+				<name> 
+					<![CDATA['75]]> 
+				</name> 
+				<category> 
+					0
+				</category> 
+				<thumbnail width='187'> 
+					itama-75-thumbnail.png
+				</thumbnail> 
+				<property> 
+					<![CDATA[23.54m / 77'3"]]> 
+				</property> 
+				<property> 
+					<![CDATA[21.53m / 70'8"]]> 
+				</property> 
+				<property> 
+					<![CDATA[5.92m / 19'5"]]> 
+				</property> 
+				<property> 
+					<![CDATA[43kn]]> 
+				</property> 
+				<link> 
+					<![CDATA[www.itama-yacht.com]]> 
+				</link> 
+				<gallery category='0'> 
+					<image> 
+						i75-ex-1.jpg
+					</image> 
+					<image> 
+						i75-ex-2.jpg
+					</image> 
+					<image> 
+						i75-ex-3.jpg
+					</image> 
+					<image> 
+						i75-ex-4.jpg
+					</image> 
+					<image> 
+						i75-ex-5.jpg
+					</image> 
+ 
+				</gallery> 
+				<gallery category='1'> 
+					<image> 
+						i75-in-1.jpg
+					</image> 
+					<image> 
+						i75-in-2.jpg
+					</image> 
+					<image> 
+						i75-in-3.jpg
+					</image> 
+					<image> 
+						i75-in-4.jpg
+					</image> 
+					<image> 
+						i75-in-5.jpg
+					</image> 
+					<image> 
+						i75-in-6.jpg
+					</image> 
+					<image> 
+						i75-in-7.jpg
+					</image> 
+				</gallery> 
+				<gallery category='2'> 
+					<image> 
+						i75-plan-1.jpg
+					</image> 
+					<image> 
+						i75-plan-2.jpg
+					</image> 
+					<image> 
+						i75-plan-3.jpg
+					</image> 
+				</gallery> 
+			</product> 
+		</label>
+		
+		<label name='numarine'>
+			<product lnk='/yachts/numarine-78fly/' typ='product'>
+				<name>
+					<![CDATA['78 Fly]]>
+				</name>
+				<category>
+					1
+				</category>
+				<thumbnail width='195'>
+					numarine-78fly-thumbnail.png
+				</thumbnail>
+				<property>
+					<![CDATA[55'9" / 18m]]>
+				</property>
+				<property>
+					<![CDATA[52' / 15.81m]]>
+				</property>
+				<property>
+					<![CDATA[14'8" / 4.49m]]>
+				</property>
+				<property>
+					<![CDATA[31kn]]>
+				</property>
+				<link>
+					<![CDATA[www.numarine.com]]>
+				</link>
+				<gallery category='0'> 
+					<image> 
+						n78F-ex-1.jpg
+					</image> 
+					<image> 
+						n78F-ex-2.jpg
+					</image> 
+					<image> 
+						n78F-ex-3.jpg
+					</image> 
+					<image> 
+						n78F-ex-4.jpg
+					</image> 
+					<image> 
+						n78F-ex-5.jpg
+					</image> 
+				</gallery> 
+				<gallery category='1'> 
+					<image> 
+						n78F-in-1.jpg
+					</image> 
+					<image> 
+						n78F-in-2.jpg
+					</image> 
+					<image> 
+						n78F-in-3.jpg
+					</image> 
+					<image> 
+						n78F-in-4.jpg
+					</image> 
+				</gallery> 
+				<gallery category='2'> 
+					<image> 
+						n78F-plan-1.png
+					</image> 
+					<image> 
+						n78F-plan-2.png
+					</image> 
+					<image> 
+						n78F-plan-3.png
+					</image> 
+				</gallery> 
+			</product>
+		
+			<product lnk='/yachts/numarine-78ht/' typ='product'>
+				<name>
+					<![CDATA['78 Hardtop]]>
+				</name>
+				<category>
+					1
+				</category>
+				<thumbnail width='195'>
+					numarine-78ht-thumbnail.png
+				</thumbnail>
+				<property>
+					<![CDATA[55'9" / 18m]]>
+				</property>
+				<property>
+					<![CDATA[52' / 15.81m]]>
+				</property>
+				<property>
+					<![CDATA[14'8" / 4.49m]]>
+				</property>
+				<property>
+					<![CDATA[31kn]]>
+				</property>
+				<link>
+					<![CDATA[www.numarine.com]]>
+				</link>
+				<gallery category='0'> 
+					<image> 
+						n78HT-ex-1.jpg
+					</image> 
+					<image> 
+						n78HT-ex-2.jpg
+					</image> 
+					<image> 
+						n78HT-ex-3.jpg
+					</image> 
+					<image> 
+						n78HT-ex-4.jpg
+					</image> 
+				</gallery> 
+				<gallery category='1'> 
+					<image> 
+						n78HT-in-1.jpg
+					</image> 
+					<image> 
+						n78HT-in-2.jpg
+					</image> 
+					<image> 
+						n78HT-in-3.jpg
+					</image> 
+					<image> 
+						n78HT-in-4.jpg
+					</image> 
+				</gallery> 
+				<gallery category='2'> 
+					<image> 
+						n78HT-plan-1.png
+					</image> 
+					<image> 
+						n78HT-plan-2.png
+					</image> 
+				</gallery> 
+			</product>
+		</label>
+		
+		<label name='pershing'>
+			<product lnk='/yachts/pershing-64/' typ='product'>
+				<name>
+					<![CDATA['64]]>
+				</name>
+				<category>
+					2
+				</category>
+				<thumbnail width='160'>
+					pershing-64-thumbnail.png
+				</thumbnail>
+				<property>
+					<![CDATA[55'9" / 18m]]>
+				</property>
+				<property>
+					<![CDATA[52' / 15.81m]]>
+				</property>
+				<property>
+					<![CDATA[14'8" / 4.49m]]>
+				</property>
+				<property>
+					<![CDATA[31kn]]>
+				</property>
+				<link>
+					<![CDATA[www.pershing.com]]>
+				</link>
+				<gallery category='0'> 
+					<image> 
+						p64-ex-1.jpg
+					</image> 
+					<image> 
+						p64-ex-2.jpg
+					</image> 
+					<image> 
+						p64-ex-3.jpg
+					</image> 
+					<image> 
+						p64-ex-4.jpg
+					</image>
+					<image> 
+						p64-ex-5.jpg
+					</image> 
+				</gallery> 
+				<gallery category='1'> 
+					<image> 
+						p64-in-1.jpg
+					</image> 
+					<image> 
+					 	p64-in-2.jpg
+					</image> 
+					<image> 
+						p64-in-3.jpg
+					</image> 
+					<image> 
+						p64-in-4.jpg
+					</image> 
+					<image> 
+						p64-in-5.jpg
+					</image>
+					<image> 
+						p64-in-6.jpg
+					</image>
+					<image> 
+						p64-in-7.jpg
+					</image>
+				</gallery> 
+				<gallery category='2'> 
+					<image> 
+						p64-plan-1.jpg
+					</image> 
+					<image> 
+						p64-plan-2.jpg
+					</image> 
+					<image> 
+						p64-plan-3.jpg
+					</image>
+				</gallery>
+			</product>
+		</label>
+		
+	</page>
+	
+	
+	
+</data>

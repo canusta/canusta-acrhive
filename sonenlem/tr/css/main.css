@@ -1,0 +1,955 @@
+
+@font-face {
+    font-family: 'camptonbook';
+    src: url('Rene.Bieder_Campton.Book-webfont.eot');
+    src: url('Rene.Bieder_Campton.Book-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Rene.Bieder_Campton.Book-webfont.woff2') format('woff2'),
+         url('Rene.Bieder_Campton.Book-webfont.woff') format('woff'),
+         url('Rene.Bieder_Campton.Book-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+
+/* ----------------------------------------- */
+/*                                           */
+/*                                           */
+/*      Common                               
+/*                                           */
+/*                                           */
+/* ----------------------------------------- */
+
+body, html, * {
+	font-family: "camptonbook",serif;
+	font-size: 24px;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+	/*text-rendering: geometricPrecision;*/
+	cursor: default;
+	/*-webkit-backface-visibility:hidden;*/
+}
+
+html {
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+body {
+	background-color: #202f65;
+	color: #202f65;
+	overflow-x: hidden;
+	width: 100%;
+}
+
+ol, ul {
+	list-style: none outside none;
+	margin: 0px;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+h1 {
+	margin: 0px !important;
+}
+
+.hide {
+	opacity: 0;
+}
+
+
+/* ----------------------------------------- */
+/*                                           */
+/*                                           */
+/*      Interface                             
+/*                                           */
+/*                                           */
+/* ----------------------------------------- */
+
+.preload {
+	opacity: 0;
+}
+
+.imgFitHeight img {
+	position: fixed;
+	z-index: 0;
+}
+
+div#header {
+	width: 100%;
+	position: absolute;
+	z-index: 9999;
+	top: 0px;
+	left: 0px;
+}
+
+	#logo {
+		width: 100%;
+		position: relative;
+		margin-top: 20px;
+		margin-left: auto;
+		margin-right: auto;
+		display: table;
+		max-width: 600px;
+	}
+
+	@media all and (max-width: 800px) {
+  div#header {
+	width: auto;
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-bottom: 100px;
+  }
+}
+
+@media all and (max-width: 500px) {
+  div#header {
+	width: auto;
+	padding-left: 20px;
+	padding-right: 100px;
+	padding-bottom: 100px;
+  }
+}
+
+div#menu {
+	position: fixed;
+	width: 100%;
+	left: 0px;
+	bottom: 0px;
+	transition: background-color 1s ease;
+}
+	
+	#menu nav {
+		position: relative;
+		text-align: center;
+	}
+
+		#menu nav ul li {
+			display: inline-block;
+			font-size: 20px;
+			/*float: left;*/
+			margin-right: 20px;
+			line-height: 20px;
+			color: white;
+			margin-bottom: 20px;
+			border: 1px solid white;
+			padding: 20px 25px;
+			transition: all 0.5s ease;
+			-webkit-border-radius: 30px; -moz-border-radius: 30px; border-radius: 30px;
+			cursor: pointer;
+			overflow: hidden;
+		}
+
+		@media all and (max-width: 1300px) {
+		  #menu nav ul li {
+		    font-size: 16px;
+		    padding: 10px 13px;
+		    margin-bottom: 10px;
+		    margin-right: 10px;
+		  }
+		}
+
+		#menu nav ul li:hover {
+			background: white;
+			color: #202f65;
+			-webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px;
+			cursor: pointer;
+		}
+
+		.currentMenuItem {
+			background: white;
+			color: #202f65 !important;
+			-webkit-border-radius: 30px !important; -moz-border-radius: 30px !important; border-radius: 30px !important;
+			cursor: default !important;
+		}
+
+		#menuItemLanguage {
+		    display: none !important;
+		  }
+
+		@media all and (max-width: 500px) {
+		  #menuItemLanguage {
+		    display: inline-block !important;
+		  }
+		}
+
+#hamburger {
+	display: none;
+	position: fixed;
+	bottom: -100px;
+	text-align: center;
+	/*width: 100%;*/
+	left:50%;
+	margin-left: -45px;
+}
+
+#hamburger img {
+	cursor: pointer;
+}
+
+.shownMenu {
+	background-color: #202f65;
+	padding-top: 20px;
+}
+
+div#menuClose {
+	color: white;
+	text-align: center;
+	margin: 0 auto;
+	font-weight: bold;
+	font-size: 18px;
+	cursor: pointer;
+	padding: 10px;
+	display: none;
+}
+
+div#menuClose:hover {
+	background-color: white;
+	color: #202f65;
+}
+
+.shownMenu div#menuClose{
+	display: block;
+}
+
+div#sponsors {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	z-index: 99999;
+	/*cursor: pointer;*/
+}
+
+@media all and (max-width: 500px) {
+  div#sponsors {
+    /*display: none;*/
+  }
+}
+
+	.sponsor {
+		/*display: inline-block;*/
+		overflow: hidden;
+		-webkit-border-radius: 30px; -moz-border-radius: 30px; border-radius: 30px;
+		width: 60px;
+		transition: all 0.5s ease;
+		margin-bottom: 10px;
+		
+	}
+
+		.sponsor img {
+			width: 60px;
+			cursor: pointer;
+		}
+
+		.sponsor:hover {
+			-webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px;
+			cursor: pointer;
+		}
+
+
+div#language {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	z-index: 99999;
+}
+
+@media all and (max-width: 500px) {
+  div#language {
+    display: none;
+  }
+}
+
+	div.languageText {
+		display: inline-block;
+		overflow: hidden;
+		width: 60px;
+		transition: all 0.5s ease;
+		-webkit-border-radius: 30px; -moz-border-radius: 30px; border-radius: 30px;
+		background-color: white;
+		
+	}
+
+		div.languageText img {
+			cursor: pointer;
+			width: 60px;
+		}
+
+		div.languageText:hover {
+			-webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px;
+			cursor: pointer;
+		}
+
+#preloader {
+	position: absolute;
+	/*background-color: #202f65;*/
+	background-color: white;
+	z-index: 9999;
+	padding: 20px;
+	-webkit-border-radius: 60px; -moz-border-radius: 60px; border-radius: 60px;
+	top: 50%;
+	left: 50%;
+	margin: -60px 0px 0px -60px;
+	-webkit-box-shadow: 0px 0px 10px 0px rgba(11,23,67,1);
+	-moz-box-shadow: 0px 0px 10px 0px rgba(11,23,67,1);
+	box-shadow: 0px 0px 10px 0px rgba(11,23,67,1);
+}
+
+	#preloader img {
+		width: 60px;
+	}
+
+
+
+
+/* ----------------------------------------- */
+/*                                           */
+/*                                           */
+/*      Password                             
+/*                                           */
+/*                                           */
+/* ----------------------------------------- */
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+div#password {
+	text-align: center;
+	top: -100px;
+	position: 	absolute;
+	left: 50%;
+	margin-left: -150px;
+	margin-top: -65px;
+}
+
+	div#passwordHeader {
+		color: white;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+
+	#passwordInput {
+		width: 300px;
+		height: 100px;
+		font-size: 72px;
+		text-align: center;
+	}
+
+	#passwordIncorrect {
+		background-color: #ef4011;
+		color: white;
+		width: 160px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 20px;
+		padding: 10px;
+		opacity: 0;
+	}
+
+
+
+
+/* ----------------------------------------- */
+/*                                           */
+/*                                           */
+/*      Anasayfa                             
+/*                                           */
+/*                                           */
+/* ----------------------------------------- */
+
+#pageAnasayfa {
+	width: 100px;
+	overflow-x: hidden;
+}
+
+#pageAnasayfa .imgFitHeight img {
+	opacity: 0;
+	-webkit-transition: opacity 500ms ease-out 0s;
+    -moz-transition: opacity 500ms ease-out 0s;
+    -o-transition: opacity 500ms ease-out 0s;
+    transition: opacity 500ms ease-out 0s;
+}
+
+#pageAnasayfa .imgFitHeight {
+	overflow: hidden;
+	width: 100px;
+}
+
+#homeText {
+	position: absolute;
+	top: 25%;
+	left: 25%;
+	width: 50%;
+	color: white;
+	padding: 20px;
+	border: 1px white solid;
+	text-align: center;
+	cursor: pointer;
+}
+
+#homeText:hover {
+	background-color: white;
+	color: #202f65;
+}
+
+@media all and (max-width: 1100px) {
+  #homeText {
+    top: 150px;
+	left: 0px;
+	width: auto;
+	margin: 20px;
+  }
+}
+
+@media all and (max-width: 500px) {
+  #homeText {
+    top: 100px;
+	left: 0px;
+	width: auto;
+	margin: 20px;
+  }
+}
+
+#homeClose {
+	-webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px;
+	background-color: white;
+	color: #202f65;
+	padding: 5px 10px;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+
+
+
+
+
+/* ----------------------------------------- */
+/*                                           */
+/*                                           */
+/*      Expetion Photos                             
+/*                                           */
+/*                                           */
+/* ----------------------------------------- */
+
+#pageAnasayfa {
+	width: 100px;
+	overflow-x: hidden;
+}
+
+#pageAnasayfa .imgFitHeight img {
+	opacity: 0;
+	-webkit-transition: opacity 500ms ease-out 0s;
+    -moz-transition: opacity 500ms ease-out 0s;
+    -o-transition: opacity 500ms ease-out 0s;
+    transition: opacity 500ms ease-out 0s;
+}
+
+#pageAnasayfa .imgFitHeight {
+	overflow: hidden;
+	width: 100px;
+}
+
+#homeText {
+	position: absolute;
+	top: 25%;
+	left: 25%;
+	width: 50%;
+	color: white;
+	padding: 20px;
+	border: 1px white solid;
+	text-align: center;
+	cursor: pointer;
+}
+
+#homeText:hover {
+	background-color: white;
+	color: #202f65;
+}
+
+@media all and (max-width: 1100px) {
+  #homeText {
+    top: 150px;
+	left: 0px;
+	width: auto;
+	margin: 20px;
+  }
+}
+
+@media all and (max-width: 500px) {
+  #homeText {
+    top: 100px;
+	left: 0px;
+	width: auto;
+	margin: 20px;
+  }
+}
+
+#homeClose {
+	-webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px;
+	background-color: white;
+	color: #202f65;
+	padding: 5px 10px;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+
+
+/* ----------------------------------------- */
+/*                                           */
+/*                                           */
+/*      The Goal                             
+/*                                           */
+/*                                           */
+/* ----------------------------------------- */
+
+#pageTheGoal {
+	
+}
+
+	#pageTheGoal .imgFitHeight img {
+		position: fixed !important;
+	}
+
+	#theGoalText {
+		position: relative;
+		/*font-size: 36px;*/
+		width: 40%;
+		top: 400px;
+		margin: 0 auto;
+		background-color: white;
+		padding: 20px;
+		padding-bottom: 200px;
+		color: #202f65;
+	}
+
+	@media all and (max-width: 1400px) {
+	  #theGoalText {
+	    width: 60%;
+	  }
+	}
+
+	@media all and (max-width: 800px) {
+	  #theGoalText {
+	    width: 80%;
+	  }
+	}
+
+	@media all and (max-width: 500px) {
+	  #theGoalText {
+	    width: 100%;
+	    top: 200px;
+	  }
+	}
+
+	#pageTheGoal a {
+		border-bottom: 2px solid #202f65;
+		cursor: pointer;
+		transition: all 1s ease;
+		color: #202f65;
+	}
+
+	#pageTheGoal a:hover {
+		border-bottom: 2px solid white;
+		cursor: pointer;
+		background-color: #202f65;
+		color: white;
+	}
+
+
+
+
+/* ----------------------------------------- */
+/*                                           */
+/*                                           */
+/*      Barneo                            
+/*                                           */
+/*                                           */
+/* ----------------------------------------- */
+
+#pageBarneo {
+	position: absolute;
+	width: 100%;
+}
+
+.barneoSection {
+	position: relative;
+}
+
+	#barneoText {
+		position: relative;
+		color: white;
+		left: 50%;
+		width: 40%;
+		/*top: 200px;*/
+		/*margin-top: 200px;*/
+		/*margin-bottom: 200px;*/
+	}
+
+		#pageBarneo a {
+			border-bottom: 2px solid white;
+			cursor: pointer;
+			transition: all 1s ease;
+			color: white;
+		}
+
+		#pageBarneo a:hover {
+			border-bottom: 2px solid white;
+			cursor: pointer;
+			background-color: white;
+			color: #202f65;
+		}
+
+@media all and (max-width: 1200px) {
+  #barneoText {
+    margin-top: 0px;
+    width: 60%;
+    margin: 0 auto;
+    padding: 10%;
+    padding-top: 100px; 
+    /*left: 0px;*/
+    /*top: 100px;*/
+    background-color: #202f65;
+    left: 0%;
+    height: auto;
+  }
+  .scrollDown{
+  	display: none;
+  }
+}
+
+@media all and (max-width: 500px) {
+  #barneoText {
+    /*margin-top: 100px;*/
+    width: 80%;
+    padding: 10%;
+    margin: 0 auto;
+    left: 0%;
+  }
+
+  #pageBarneo .imgFitHeight {
+  	position: relative !important;
+  }
+}
+
+.barneoVideo {
+	width: 100%;
+}
+
+.scrollDown {
+	font-weight: bold;
+	font-size: 18px;
+}
+
+ .barneoImg img {
+	position: relative !important;
+}
+
+#footnote {
+	padding: 20px;
+	background-color: white;
+	color: #202f65;
+	position: relative;
+}
+
+
+
+
+
+/* ----------------------------------------- */
+/*                                           */
+/*                                           */
+/*      Polar Ocean                            
+/*                                           */
+/*                                           */
+/* ----------------------------------------- */
+
+#pagePolarOcean {
+	position: absolute;
+	width: 100%;
+}
+
+#polarOceanText {
+	position: relative;
+	color: white;
+	width: 40%;
+	top: 200px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+@media all and (max-width: 1200px) {
+  #polarOceanText {
+    width: 60%;
+  }
+}
+
+@media all and (max-width: 800px) {
+  #polarOceanText {
+    width: 80%;
+  }
+}
+
+
+
+
+/* ----------------------------------------- */
+/*                                           */
+/*                                           */
+/*      Follow Us                            
+/*                                           */
+/*                                           */
+/* ----------------------------------------- */
+
+#pageFollowUs {
+	position: absolute;
+	width: 100%;
+}
+
+	#followUsContent {
+		position: relative;
+		margin: 0 auto;
+		text-align: center;
+		top: 50%;
+	}
+
+		.followUsItem {
+			background-color: white;
+			color: #202f65;
+			display: inline-block;
+			padding: 20px;
+			-webkit-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px;
+			cursor: pointer;
+			margin-bottom: 6px;
+		}
+
+		.followUsItem:hover {
+
+		}
+
+
+
+
+
+
+
+/* ----------------------------------------- */
+/*                                           */
+/*                                           */
+/*      The Team                       
+/*                                           */
+/*                                           */
+/* ----------------------------------------- */
+
+#pageTheTeam {
+	position: absolute;
+	width: 100%;
+	background-color: white;
+	height: 100%;
+	overflow: visible;
+}
+
+	#theTeamImages {
+		background-color: white;
+		padding: 0 0 20% 0;
+	}
+
+	#theTeamContent {
+		position: absolute;
+		/*margin: 0 auto;*/
+		text-align: right;
+		width: 30%;
+		padding: 10%;
+		right: 0px;
+		top: 0px;
+	}
+
+	#pageTheTeam .imgFitHeight img {
+		position: relative;
+	}
+
+@media all and (max-width: 800px) {
+  #theTeamContent {
+    width: 80%;
+    top: 200%;
+    background-color: white;
+  }
+}
+
+
+
+
+
+/* ----------------------------------------- */
+/*                                           */
+/*                                           */
+/*      Preparing                     
+/*                                           */
+/*                                           */
+/* ----------------------------------------- */
+
+
+
+#pagePreparing {
+	position: absolute;
+	width: 100%;
+	overflow: visible;
+}
+
+	#preparingImages img {
+		position: relative;
+	}
+
+	#preparingContent {
+		position: relative;
+		/*margin: 0 auto;*/
+		text-align: center;
+		/*width: 60%;*/
+		padding: 200px 10%;
+		/*z-index: 999999;*/
+		color: white;
+	}
+
+		#preparingContent span {
+			font-size: 18px;
+			font-weight: bold;
+		}
+
+.preparingVideo {
+	
+}
+
+
+/* ----------------------------------------- */
+/*                                           */
+/*                                           */
+/*      Support                     
+/*                                           */
+/*                                           */
+/* ----------------------------------------- */
+
+#pageSupport {
+	position: absolute;
+	width: 100%;
+	overflow: visible;
+}
+
+	#preparingImages img {
+		position: relative;
+	}
+
+	#supportContent {
+		position: relative;
+		/*margin: 0 auto;*/
+		text-align: left;
+		/*width: 60%;*/
+		padding: 200px 10%;
+		/*z-index: 999999;*/
+		color: white;
+	}
+
+
+
+
+
+/* ----------------------------------------- */
+/*                                           */
+/*                                           */
+/*      Audio Diary                     
+/*                                           */
+/*                                           */
+/* ----------------------------------------- */
+
+#pageAudioDiary {
+	position: absolute;
+	width: 100%;
+	overflow: visible;
+	color: white;
+}
+
+	#audioDiaryContent {
+		position: relative;
+		text-align: center;
+		/*padding: 200px 10%;*/
+		color: white;
+		top: 150px;
+		opacity: 0;
+	}
+
+	.diaryItem {
+		margin-bottom: 30px;
+	}
+
+
+
+
+
+
+/* ----------------------------------------- */
+/*                                           */
+/*                                           */
+/*      News                  
+/*                                           */
+/*                                           */
+/* ----------------------------------------- */
+
+#pageNews {
+	position: absolute;
+	width: 100%;
+	overflow: visible;
+	color: white;
+}
+
+	#newsContent {
+		position: relative;
+		text-align: center;
+		/*padding: 200px 10%;*/
+		top: 150px;
+		color: white;
+		opacity: 0;
+	}
+
+	.newsEntry {
+		background-color: white;
+		color: #202f65;
+		margin: 10px auto;
+		padding: 20px;
+		width: 50%;
+	}
+
+	.newsDate {
+		font-weight: bold;
+	}
+
+	.newsText {
+
+	}
+
+@media all and (max-width: 800px) {
+  .newsEntry {
+	width: auto;
+	margin: 10px 20px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+

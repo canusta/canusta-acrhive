@@ -1,0 +1,381 @@
+﻿<data>
+	
+	<backgrounds>
+		<item>bg1.jpg</item>
+		<item>bg4.jpg</item>
+		<item>bg5.jpg</item>
+	</backgrounds>
+	
+	<reklam>
+		<item thumbnail="reklam2.jpg" width="181" sub="1">
+			<name><![CDATA[Heğıf<br>40]]></name>
+			<images>
+				<image thumbnailwidth="181" cap="İmaj Bilgisi ĞŞIü" fullview="imaj1.jpg" width="668" height="653">reklam2.jpg</image>
+				<image thumbnailwidth="248" cap="İmaj Bilgisi" fullview="imaj2.jpg" width="513" height="380">reklam8.jpg</image>
+				<image thumbnailwidth="122" cap="İmaj Bilgisi" fullview="imaj3.jpg" width="252" height="380">reklam7.jpg</image>
+			</images>
+		</item>
+		<item thumbnail="reklam1.jpg" width="122" sub="0">
+			<name><![CDATA[Lorem Ipsum]]></name>
+			<images>
+				<image thumbnailwidth="181" cap="İmaj Bilgisi" fullview="imaj1.jpg" width="668" height="653">reklam2.jpg</image>
+			</images>
+		</item>
+		<item thumbnail="reklam3.jpg" width="184" sub="1">
+			<name><![CDATA[Hamburgefont<br>Ives]]></name>
+			<images>
+				<image thumbnailwidth="184" cap="İmaj Bilgisi" fullview="imaj1.jpg" width="668" height="653">reklam3.jpg</image>
+				<image thumbnailwidth="184" cap="İmaj Bilgisi" fullview="imaj1.jpg" width="668" height="653">reklam3.jpg</image>
+				<image thumbnailwidth="184" cap="İmaj Bilgisi" fullview="imaj1.jpg" width="668" height="653">reklam3.jpg</image>
+				<image thumbnailwidth="184" cap="İmaj Bilgisi" fullview="imaj1.jpg" width="668" height="653">reklam3.jpg</image>
+			</images>
+		</item>
+		<item thumbnail="reklam4.jpg" width="184" sub="1">
+			<name><![CDATA[Lorem Ipsum]]></name>
+			<images>
+				<image thumbnailwidth="184" cap="İmaj Bilgisi" fullview="imaj1.jpg" width="668" height="653">reklam4.jpg</image>
+				<image thumbnailwidth="184" cap="İmaj Bilgisi" fullview="imaj1.jpg" width="668" height="653">reklam4.jpg</image>
+				<image thumbnailwidth="184" cap="İmaj Bilgisi" fullview="imaj1.jpg" width="668" height="653">reklam4.jpg</image>
+				<image thumbnailwidth="184" cap="İmaj Bilgisi" fullview="imaj1.jpg" width="668" height="653">reklam4.jpg</image>
+				<image thumbnailwidth="184" cap="İmaj Bilgisi" fullview="imaj1.jpg" width="668" height="653">reklam4.jpg</image>
+			</images>
+		</item>
+		<item thumbnail="reklam5.jpg" width="121" sub="1">
+			<name><![CDATA[Lorem Ipsum]]></name>
+			<images>
+				<image thumbnailwidth="121" cap="İmaj Bilgisi" fullview="imaj1.jpg" width="668" height="653">reklam5.jpg</image>
+				<image thumbnailwidth="121" cap="İmaj Bilgisi" fullview="imaj1.jpg" width="668" height="653">reklam5.jpg</image>
+				<image thumbnailwidth="121" cap="İmaj Bilgisi" fullview="imaj1.jpg" width="668" height="653">reklam5.jpg</image>
+				<image thumbnailwidth="121" cap="İmaj Bilgisi" fullview="imaj1.jpg" width="668" height="653">reklam5.jpg</image>
+				<image thumbnailwidth="121" cap="İmaj Bilgisi" fullview="imaj1.jpg" width="668" height="653">reklam5.jpg</image>
+			</images>
+		</item>
+		<item thumbnail="reklam6.jpg" width="122" sub="1">
+			<name><![CDATA[Lorem Ipsum]]></name>
+			<images>
+				<image thumbnailwidth="122" cap="İmaj Bilgisi" fullview="imaj1.jpg" width="668" height="653">reklam6.jpg</image>
+				<image thumbnailwidth="122" cap="İmaj Bilgisi" fullview="imaj1.jpg" width="668" height="653">reklam6.jpg</image>
+				<image thumbnailwidth="122" cap="İmaj Bilgisi" fullview="imaj1.jpg" width="668" height="653">reklam6.jpg</image>
+			</images>
+		</item>
+		<item thumbnail="reklam2.jpg" width="122" sub="1">
+			<name><![CDATA[Heğıf<br>40]]></name>
+			<images>
+				<image thumbnailwidth="122" cap="İmaj Bilgisi" fullview="imaj1.jpg" width="668" height="653">reklam2.jpg</image>
+				<image thumbnailwidth="122" cap="İmaj Bilgisi" fullview="imaj2.jpg" width="513" height="380">reklam8.jpg</image>
+				<image thumbnailwidth="122" cap="İmaj Bilgisi" fullview="imaj3.jpg" width="252" height="380">reklam7.jpg</image>
+			</images>
+		</item>
+		<item thumbnail="reklam1.jpg" width="122" sub="1">
+			<name><![CDATA[Lorem Ipsum]]></name>
+			<images>
+				<image thumbnailwidth="181" cap="İmaj Bilgisi" fullview="imaj1.jpg" width="668" height="653">reklam2.jpg</image>
+				<image thumbnailwidth="181" cap="İmaj Bilgisi" fullview="imaj1.jpg" width="668" height="653">reklam2.jpg</image>
+				<image thumbnailwidth="181" cap="İmaj Bilgisi" fullview="imaj1.jpg" width="668" height="653">reklam2.jpg</image>
+				<image thumbnailwidth="181" cap="İmaj Bilgisi" fullview="imaj1.jpg" width="668" height="653">reklam2.jpg</image>
+				<image thumbnailwidth="181" cap="İmaj Bilgisi" fullview="imaj1.jpg" width="668" height="653">reklam2.jpg</image>
+			</images>
+		</item>
+		<item thumbnail="reklam3.jpg" width="184" sub="1">
+			<name><![CDATA[Hamburgefont<br>Ives]]></name>
+			<images>
+				<image thumbnailwidth="184" cap="İmaj Bilgisi" fullview="imaj1.jpg" width="668" height="653">reklam3.jpg</image>
+				<image thumbnailwidth="184" cap="İmaj Bilgisi" fullview="imaj1.jpg" width="668" height="653">reklam3.jpg</image>
+				<image thumbnailwidth="184" cap="İmaj Bilgisi" fullview="imaj1.jpg" width="668" height="653">reklam3.jpg</image>
+				<image thumbnailwidth="184" cap="İmaj Bilgisi" fullview="imaj1.jpg" width="668" height="653">reklam3.jpg</image>
+			</images>
+		</item>
+		<item thumbnail="reklam4.jpg" width="184" sub="1">
+			<name><![CDATA[Lorem Ipsum]]></name>
+			<images>
+				<image thumbnailwidth="184" cap="İmaj Bilgisi" fullview="imaj1.jpg" width="668" height="653">reklam4.jpg</image>
+				<image thumbnailwidth="184" cap="İmaj Bilgisi" fullview="imaj1.jpg" width="668" height="653">reklam4.jpg</image>
+				<image thumbnailwidth="184" cap="İmaj Bilgisi" fullview="imaj1.jpg" width="668" height="653">reklam4.jpg</image>
+				<image thumbnailwidth="184" cap="İmaj Bilgisi" fullview="imaj1.jpg" width="668" height="653">reklam4.jpg</image>
+				<image thumbnailwidth="184" cap="İmaj Bilgisi" fullview="imaj1.jpg" width="668" height="653">reklam4.jpg</image>
+			</images>
+		</item>
+		<item thumbnail="reklam5.jpg" width="121" sub="1">
+			<name><![CDATA[Lorem Ipsum]]></name>
+			<images>
+				<image thumbnailwidth="121" cap="İmaj Bilgisi" fullview="imaj1.jpg" width="668" height="653">reklam5.jpg</image>
+				<image thumbnailwidth="121" cap="İmaj Bilgisi" fullview="imaj1.jpg" width="668" height="653">reklam5.jpg</image>
+				<image thumbnailwidth="121" cap="İmaj Bilgisi" fullview="imaj1.jpg" width="668" height="653">reklam5.jpg</image>
+				<image thumbnailwidth="121" cap="İmaj Bilgisi" fullview="imaj1.jpg" width="668" height="653">reklam5.jpg</image>
+				<image thumbnailwidth="121" cap="İmaj Bilgisi" fullview="imaj1.jpg" width="668" height="653">reklam5.jpg</image>
+			</images>
+		</item>
+		<item thumbnail="reklam6.jpg" width="122" sub="1">
+			<name><![CDATA[Lorem Ipsum]]></name>
+			<images>
+				<image thumbnailwidth="122" cap="İmaj Bilgisi" fullview="imaj1.jpg" width="668" height="653">reklam6.jpg</image>
+				<image thumbnailwidth="122" cap="İmaj Bilgisi" fullview="imaj1.jpg" width="668" height="653">reklam6.jpg</image>
+				<image thumbnailwidth="122" cap="İmaj Bilgisi" fullview="imaj1.jpg" width="668" height="653">reklam6.jpg</image>
+			</images>
+		</item>
+		<item thumbnail="reklam2.jpg" width="122" sub="1">
+			<name><![CDATA[Heğıf<br>40]]></name>
+			<images>
+				<image thumbnailwidth="122" cap="İmaj Bilgisi" fullview="imaj1.jpg" width="668" height="653">reklam2.jpg</image>
+				<image thumbnailwidth="122" cap="İmaj Bilgisi" fullview="imaj2.jpg" width="513" height="380">reklam8.jpg</image>
+				<image thumbnailwidth="122" cap="İmaj Bilgisi" fullview="imaj3.jpg" width="252" height="380">reklam7.jpg</image>
+			</images>
+		</item>
+		<item thumbnail="reklam1.jpg" width="122" sub="1">
+			<name><![CDATA[Lorem Ipsum]]></name>
+			<images>
+				<image thumbnailwidth="181" cap="İmaj Bilgisi" fullview="imaj1.jpg" width="668" height="653">reklam2.jpg</image>
+				<image thumbnailwidth="181" cap="İmaj Bilgisi" fullview="imaj1.jpg" width="668" height="653">reklam2.jpg</image>
+				<image thumbnailwidth="181" cap="İmaj Bilgisi" fullview="imaj1.jpg" width="668" height="653">reklam2.jpg</image>
+				<image thumbnailwidth="181" cap="İmaj Bilgisi" fullview="imaj1.jpg" width="668" height="653">reklam2.jpg</image>
+				<image thumbnailwidth="181" cap="İmaj Bilgisi" fullview="imaj1.jpg" width="668" height="653">reklam2.jpg</image>
+			</images>
+		</item>
+		<item thumbnail="reklam3.jpg" width="184" sub="1">
+			<name><![CDATA[Hamburgefont<br>Ives]]></name>
+			<images>
+				<image thumbnailwidth="184" cap="İmaj Bilgisi" fullview="imaj1.jpg" width="668" height="653">reklam3.jpg</image>
+				<image thumbnailwidth="184" cap="İmaj Bilgisi" fullview="imaj1.jpg" width="668" height="653">reklam3.jpg</image>
+				<image thumbnailwidth="184" cap="İmaj Bilgisi" fullview="imaj1.jpg" width="668" height="653">reklam3.jpg</image>
+				<image thumbnailwidth="184" cap="İmaj Bilgisi" fullview="imaj1.jpg" width="668" height="653">reklam3.jpg</image>
+			</images>
+		</item>
+		<item thumbnail="reklam4.jpg" width="184" sub="1">
+			<name><![CDATA[Lorem Ipsum]]></name>
+			<images>
+				<image thumbnailwidth="184" cap="İmaj Bilgisi" fullview="imaj1.jpg" width="668" height="653">reklam4.jpg</image>
+				<image thumbnailwidth="184" cap="İmaj Bilgisi" fullview="imaj1.jpg" width="668" height="653">reklam4.jpg</image>
+				<image thumbnailwidth="184" cap="İmaj Bilgisi" fullview="imaj1.jpg" width="668" height="653">reklam4.jpg</image>
+				<image thumbnailwidth="184" cap="İmaj Bilgisi" fullview="imaj1.jpg" width="668" height="653">reklam4.jpg</image>
+				<image thumbnailwidth="184" cap="İmaj Bilgisi" fullview="imaj1.jpg" width="668" height="653">reklam4.jpg</image>
+			</images>
+		</item>
+		<item thumbnail="reklam5.jpg" width="121" sub="1">
+			<name><![CDATA[Lorem Ipsum]]></name>
+			<images>
+				<image thumbnailwidth="121" cap="İmaj Bilgisi" fullview="imaj1.jpg" width="668" height="653">reklam5.jpg</image>
+				<image thumbnailwidth="121" cap="İmaj Bilgisi" fullview="imaj1.jpg" width="668" height="653">reklam5.jpg</image>
+				<image thumbnailwidth="121" cap="İmaj Bilgisi" fullview="imaj1.jpg" width="668" height="653">reklam5.jpg</image>
+				<image thumbnailwidth="121" cap="İmaj Bilgisi" fullview="imaj1.jpg" width="668" height="653">reklam5.jpg</image>
+				<image thumbnailwidth="121" cap="İmaj Bilgisi" fullview="imaj1.jpg" width="668" height="653">reklam5.jpg</image>
+			</images>
+		</item>
+		<item thumbnail="reklam6.jpg" width="122" sub="1">
+			<name><![CDATA[Lorem Ipsum]]></name>
+			<images>
+				<image thumbnailwidth="122" cap="İmaj Bilgisi" fullview="imaj1.jpg" width="668" height="653">reklam6.jpg</image>
+				<image thumbnailwidth="122" cap="İmaj Bilgisi" fullview="imaj1.jpg" width="668" height="653">reklam6.jpg</image>
+				<image thumbnailwidth="122" cap="İmaj Bilgisi" fullview="imaj1.jpg" width="668" height="653">reklam6.jpg</image>
+			</images>
+		</item>
+	</reklam>
+	
+	<projeler>
+		<item thumbnail="reklam2.jpg" width="181" sub="0">
+			<name><![CDATA[Heğıf<br>40]]></name>
+			<images>
+				<image thumbnailwidth="181" cap="İmaj Bilgisi ĞŞIü" fullview="imaj1.jpg" width="668" height="653">reklam2.jpg</image>
+			</images>
+		</item>
+		<item thumbnail="reklam2.jpg" width="181" sub="0">
+			<name><![CDATA[Heğıf<br>40]]></name>
+			<images>
+				<image thumbnailwidth="181" cap="İmaj Bilgisi ĞŞIü" fullview="imaj1.jpg" width="668" height="653">reklam2.jpg</image>
+			</images>
+		</item>
+		<item thumbnail="reklam2.jpg" width="181" sub="0">
+			<name><![CDATA[Heğıf<br>40]]></name>
+			<images>
+				<image thumbnailwidth="181" cap="İmaj Bilgisi ĞŞIü" fullview="imaj1.jpg" width="668" height="653">reklam2.jpg</image>
+			</images>
+		</item>
+		<item thumbnail="reklam2.jpg" width="181" sub="0">
+			<name><![CDATA[Heğıf<br>40]]></name>
+			<images>
+				<image thumbnailwidth="181" cap="İmaj Bilgisi ĞŞIü" fullview="imaj1.jpg" width="668" height="653">reklam2.jpg</image>
+			</images>
+		</item>
+		<item thumbnail="reklam2.jpg" width="181" sub="0">
+			<name><![CDATA[Heğıf<br>40]]></name>
+			<images>
+				<image thumbnailwidth="181" cap="İmaj Bilgisi ĞŞIü" fullview="imaj1.jpg" width="668" height="653">reklam2.jpg</image>
+			</images>
+		</item>
+		<item thumbnail="reklam2.jpg" width="181" sub="0">
+			<name><![CDATA[Heğıf<br>40]]></name>
+			<images>
+				<image thumbnailwidth="181" cap="İmaj Bilgisi ĞŞIü" fullview="imaj1.jpg" width="668" height="653">reklam2.jpg</image>
+			</images>
+		</item>
+		<item thumbnail="reklam2.jpg" width="181" sub="0">
+			<name><![CDATA[Heğıf<br>40]]></name>
+			<images>
+				<image thumbnailwidth="181" cap="İmaj Bilgisi ĞŞIü" fullview="imaj1.jpg" width="668" height="653">reklam2.jpg</image>
+			</images>
+		</item>
+		<item thumbnail="reklam2.jpg" width="181" sub="0">
+			<name><![CDATA[Heğıf<br>40]]></name>
+			<images>
+				<image thumbnailwidth="181" cap="İmaj Bilgisi ĞŞIü" fullview="imaj1.jpg" width="668" height="653">reklam2.jpg</image>
+			</images>
+		</item>
+		<item thumbnail="reklam2.jpg" width="181" sub="0">
+			<name><![CDATA[Heğıf<br>40]]></name>
+			<images>
+				<image thumbnailwidth="181" cap="İmaj Bilgisi ĞŞIü" fullview="imaj1.jpg" width="668" height="653">reklam2.jpg</image>
+			</images>
+		</item>
+		<item thumbnail="reklam2.jpg" width="181" sub="0">
+			<name><![CDATA[Heğıf<br>40]]></name>
+			<images>
+				<image thumbnailwidth="181" cap="İmaj Bilgisi ĞŞIü" fullview="imaj1.jpg" width="668" height="653">reklam2.jpg</image>
+			</images>
+		</item>
+		<item thumbnail="reklam2.jpg" width="181" sub="0">
+			<name><![CDATA[Heğıf<br>40]]></name>
+			<images>
+				<image thumbnailwidth="181" cap="İmaj Bilgisi ĞŞIü" fullview="imaj1.jpg" width="668" height="653">reklam2.jpg</image>
+			</images>
+		</item>
+		<item thumbnail="reklam2.jpg" width="181" sub="0">
+			<name><![CDATA[Heğıf<br>40]]></name>
+			<images>
+				<image thumbnailwidth="181" cap="İmaj Bilgisi ĞŞIü" fullview="imaj1.jpg" width="668" height="653">reklam2.jpg</image>
+			</images>
+		</item>
+		<item thumbnail="reklam2.jpg" width="181" sub="0">
+			<name><![CDATA[Heğıf<br>40]]></name>
+			<images>
+				<image thumbnailwidth="181" cap="İmaj Bilgisi ĞŞIü" fullview="imaj1.jpg" width="668" height="653">reklam2.jpg</image>
+			</images>
+		</item>
+		<item thumbnail="reklam2.jpg" width="181" sub="0">
+			<name><![CDATA[Heğıf<br>40]]></name>
+			<images>
+				<image thumbnailwidth="181" cap="İmaj Bilgisi ĞŞIü" fullview="imaj1.jpg" width="668" height="653">reklam2.jpg</image>
+			</images>
+		</item>
+	</projeler>
+	
+	<hakkinda>
+		<biyografi>
+			<picture>
+				<![CDATA[hakkinda.gif]]>
+			</picture>
+			<text>
+				<![CDATA[Muammer Yanmaz 1969 İstanbul doğumludur. Orta öğrenimini Saint-Michel Lisesi'nde tamamlamıştır. Lisenin karanlık odasında başladığı fotoğraf sanatını bir yaşam biçmine dönüştürülmüştür. Kendi stüdyosunda tanıtım fotoğrafçılığı yapmakta olan Yanmaz'ın; 40 Yönetmen, 40 İstasyon Paris, 40 İstasyon New York, Kadın Oyuncular, Kadın Yönetmenler, 40 Ayna gibi sergilenmiş projeleri vardır. Fotoğraf dersleri de veren Yanmaz, kurduğu 40 Haramiler fotoğraf grubunda, fotoğrafı paylaşmaya devam etmektedir.]]>
+			</text>
+		</biyografi>
+		<sergiler>
+			<item thumbnail="reklam2.jpg" width="122" sub="1">
+				<name><![CDATA[Heğıf<br>40]]></name>
+				<images>
+					<image thumbnailwidth="122" cap="İmaj Bilgisi" fullview="imaj1.jpg" width="668" height="653">reklam2.jpg</image>
+					<image thumbnailwidth="122" cap="İmaj Bilgisi" fullview="imaj2.jpg" width="513" height="380">reklam8.jpg</image>
+					<image thumbnailwidth="122" cap="İmaj Bilgisi" fullview="imaj3.jpg" width="252" height="380">reklam7.jpg</image>
+				</images>
+			</item>
+			<item thumbnail="reklam1.jpg" width="122" sub="1">
+				<name><![CDATA[Lorem Ipsum]]></name>
+				<images>
+					<image thumbnailwidth="181" cap="İmaj Bilgisi" fullview="imaj1.jpg" width="668" height="653">reklam2.jpg</image>
+					<image thumbnailwidth="181" cap="İmaj Bilgisi" fullview="imaj1.jpg" width="668" height="653">reklam2.jpg</image>
+					<image thumbnailwidth="181" cap="İmaj Bilgisi" fullview="imaj1.jpg" width="668" height="653">reklam2.jpg</image>
+					<image thumbnailwidth="181" cap="İmaj Bilgisi" fullview="imaj1.jpg" width="668" height="653">reklam2.jpg</image>
+					<image thumbnailwidth="181" cap="İmaj Bilgisi" fullview="imaj1.jpg" width="668" height="653">reklam2.jpg</image>
+				</images>
+			</item>
+			<item thumbnail="reklam3.jpg" width="184" sub="1">
+				<name><![CDATA[Hamburgefont<br>Ives]]></name>
+				<images>
+					<image thumbnailwidth="184" cap="İmaj Bilgisi" fullview="imaj1.jpg" width="668" height="653">reklam3.jpg</image>
+					<image thumbnailwidth="184" cap="İmaj Bilgisi" fullview="imaj1.jpg" width="668" height="653">reklam3.jpg</image>
+					<image thumbnailwidth="184" cap="İmaj Bilgisi" fullview="imaj1.jpg" width="668" height="653">reklam3.jpg</image>
+					<image thumbnailwidth="184" cap="İmaj Bilgisi" fullview="imaj1.jpg" width="668" height="653">reklam3.jpg</image>
+				</images>
+			</item>
+			<item thumbnail="reklam4.jpg" width="184" sub="1">
+				<name><![CDATA[Lorem Ipsum]]></name>
+				<images>
+					<image thumbnailwidth="184" cap="İmaj Bilgisi" fullview="imaj1.jpg" width="668" height="653">reklam4.jpg</image>
+					<image thumbnailwidth="184" cap="İmaj Bilgisi" fullview="imaj1.jpg" width="668" height="653">reklam4.jpg</image>
+					<image thumbnailwidth="184" cap="İmaj Bilgisi" fullview="imaj1.jpg" width="668" height="653">reklam4.jpg</image>
+					<image thumbnailwidth="184" cap="İmaj Bilgisi" fullview="imaj1.jpg" width="668" height="653">reklam4.jpg</image>
+					<image thumbnailwidth="184" cap="İmaj Bilgisi" fullview="imaj1.jpg" width="668" height="653">reklam4.jpg</image>
+				</images>
+			</item>
+		</sergiler>
+	</hakkinda>
+	
+	<haberler>
+		<item>
+			<date>
+				22.01.2009
+			</date>
+			<text>
+				<![CDATA[Loremipsum dergisinde yayınlanan röportajı aşağıdakli linkten indirebilirsiniz:]]>
+			</text>
+			<file src="Files/Misc/Dummy.zip">
+				<![CDATA[PDF'i indir]]>
+			</file>
+		</item>
+		<item>
+			<date>
+				14.10.2008
+			</date>
+			<text>
+				<![CDATA[Horalandun sitesinde yayınlanan fotoğrafları görüntülemek için aşağıdaki linki tıklayabilirsiniz:]]>
+			</text>
+			<file src="http://www.horalandun.com">
+				<![CDATA[www.horalandun.com]]>
+			</file>
+		</item>
+		<item>
+			<date>
+				11.08.2008
+			</date>
+			<text>
+				<![CDATA[Gjon Mili visited Picasso in 1949. Mili showed the artist some of his photographs of ice skaters with tiny lights affixed to their skates jumping in the dark—and Picasso’s mind began to race. Loremipsum dergisinde yayınlanan röportajı aşağıdakli linkten indirebilirsiniz:]]>
+			</text>
+			<file src="Files/Misc/Dummy.zip">
+				<![CDATA[PDF'i indir]]>
+			</file>
+		</item>
+		<item>
+			<date>
+				10.05.2008
+			</date>
+			<text>
+				<![CDATA[Loremipsum dergisinde yayınlanan röportajı aşağıdakli linkten indirebilirsiniz:]]>
+			</text>
+			<file src="Files/Misc/Dummy.zip">
+				<![CDATA[PDF'i indir]]>
+			</file>
+		</item>
+		<item>
+			<date>
+				01.01.2008
+			</date>
+			<text>
+				<![CDATA[Loremipsum dergisinde yayınlanan röportajı aşağıdakli linkten indirebilirsiniz:]]>
+			</text>
+			<file src="Files/Misc/Dummy.zip">
+				<![CDATA[PDF'i indir]]>
+			</file>
+		</item>
+	</haberler>
+	
+	<studyo>
+		<item thumbnail="studyo-00-thumb.jpg" width="184">studyo-00.jpg</item>
+		<item thumbnail="studyo-01-thumb.jpg" width="184">studyo-01.jpg</item>
+		<item thumbnail="studyo-02-thumb.jpg" width="184">studyo-02.jpg</item>
+		<item thumbnail="studyo-03-thumb.jpg" width="184">studyo-03.jpg</item>
+	</studyo>
+	
+	<atolye>
+		<item thumbnail="atolye-thumb-01.jpg" width="">atolye-01.jpg</item>
+		<item thumbnail="atolye-thumb-02.jpg" width="">atolye-02.jpg</item>
+		<item thumbnail="atolye-thumb-03.jpg" width="">atolye-03.jpg</item>
+	</atolye>
+	
+</data>

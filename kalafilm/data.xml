@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="ISO-8859-9"?>
+	<db>
+		<directors>
+			<item id="0" name="Hakan Yonat" director="yes" />
+			<item id="1" name="Kıvanç Baruönü" director="yes" />
+			<item id="2" name="Fatih Kızılgök" director="yes" />
+			<item id="3" name="Taylan Biraderler" director="yes" />
+			<item id="4" name="Eric Will" director="no" />
+			<item id="5" name="Ali Erdemci" director="no" />
+			<item id="6" name="Şener Sonuşen" director="no" />
+		</directors>
+		<directorsreel>
+			<item id="0" orders="0" client="BGD" name="Köpek" mov="BGD_Kopek" director="2" sub="0" />
+			<item id="1" orders="1" client="Siber Alem" name="Leyla ile Mecnun" mov="Siberalem_Leyla_ile_Mecnun" director="2" sub="0" />
+			<item id="2" orders="2" client="Siber Alem" name="Ferhat ile Şirin" mov="Siberalem_Ferhat_ile_Sirin" director="2" sub="0" />
+			<item id="3" orders="3" client="hepsiburada.com" name="Telefon" mov="Hepsiburada.com_Telefon" director="2" sub="0" />
+			<item id="4" orders="4" client="hepsiburada.com" name="Koşu Bandı" mov="Hepsiburada.com_Kosu_Bandi" director="2" sub="0" />
+			<item id="5" orders="5" client="hepsiburada.com" name="Laptop" mov="Hepsiburada.com_Laptop" director="2" sub="0" />
+			<item id="6" orders="6" client="Turkcell" name="Berber" mov="TurkcellSuperlig_Berber" director="2" sub="0" />
+			<item id="7" orders="7" client="Turkcell" name="Baklava" mov="TurkcellSuperlig_Baklava" director="2" sub="0" />
+			<item id="8" orders="8" client="Turkcell" name="Kahveci" mov="TurkcellSuperlig_Kahveci" director="2" sub="0" />
+			<item id="9" orders="9" client="Revivogen" name="Tarak" mov="Revivogen_Tarak" director="2" sub="0" />
+			<item id="10" orders="10" client="Vodafone" name="Plaj" mov="Vodafone_Plaj" director="2" sub="0" />
+			<item id="11" orders="11" client="Vodafone" name="Futbol" mov="Vodafone_Futbol" director="2" sub="0" />
+			<item id="12" orders="12" client="HSBC" name="Küçük Torba" mov="HSBC_Kucuk_Torba" director="2" sub="0" />
+			<item id="13" orders="13" client="Turkcell" name="Basketbol Milli Takım" mov="Turkcell_Basketbol_Milli_Takim" director="2" sub="0" />
+			<item id="14" orders="14" client="Turkcell" name="Boğa" mov="Turkcell_Boga" director="2" sub="0" />
+			<item id="15" orders="15" client="Turkcell" name="Zıplama" mov="Turkcell_Ziplama" director="2" sub="0" />
+			<item id="16" orders="16" client="İDAŞ" name="Cimarelle" mov="Idas_Climarelle" director="2" sub="0" />
+			<item id="17" orders="17" client="Cem Özkan" name="Dön Bana" mov="Cem_Ozkan_Don_Bana" director="2" sub="1" />
+			<item id="18" orders="18" client="Yasemin Mori" name="Aslında Bir Konu Var" mov="Yasemin_Mori_Aslinda_Bir_Konu_Var" director="2" sub="1" />
+			<item id="19" orders="0" client="Arçelik" name="Orbital" mov="Arcelik_Orbital" director="0" sub="0" />
+			<item id="20" orders="1" client="Papia" name="Yarış Pisti" mov="Papia_Yaris_Pisti" director="0" sub="0" />
+			<item id="21" orders="2" client="Avea" name="Müzik İndir" mov="Avea_Muzik_Indir" director="0" sub="0" />
+			<item id="22" orders="3" client="Toçev" name="Andımız" mov="Tocev_Andimiz" director="0" sub="0" />
+			<item id="23" orders="4" client="Ülker Çubuk" name="Fabrikatör" mov="Ulker_Cubuk_Fabrikator" director="0" sub="0" />
+			<item id="24" orders="5" client="Ülker Çubuk" name="Türkiye Güzeli" mov="Ulker_Cubuk_Turkiye_Guzeli" director="0" sub="0" />
+			<item id="25" orders="6" client="Ülker Çubuk" name="Mefruşatçı" mov="Ulker_Cubuk_Mefrusatci" director="0" sub="0" />
+			<item id="26" orders="7" client="Lay's Gurme" name="Romantizm" mov="Lays_Gurme_Romantizm" director="0" sub="0" />
+			<item id="27" orders="8" client="Dimes" name="Kurumsal" mov="Dimes_Kurumsal" director="0" sub="0" />
+			<item id="28" orders="9" client="Biryağ" name="Kitapçı" mov="Biryag_Kitapci" director="0" sub="0" />
+			<item id="29" orders="10" client="E-Store" name="Köpek" mov="Estore_Kopek" director="0" sub="0" />
+			<item id="30" orders="11" client="E-Store" name="Uzaylı" mov="Estore_Uzayli" director="0" sub="0" />
+			<item id="31" orders="12" client="E-Store" name="Şövalye" mov="Estore_Sovalye" director="0" sub="0" />
+			<item id="32" orders="13" client="Linens Sigorta" name="Can" mov="Linens_Sigorta_Can" director="0" sub="0" />
+			<item id="33" orders="14" client="Hobby Şampuan" name="Kızlar" mov="Hobby_Sampuan_Kizlar" director="0" sub="0" />
+			<item id="34" orders="15" client="Samsung" name="Beyaz" mov="" director="0" sub="0" />
+			<item id="35" orders="16" client="Muhabbet Kart" name="İtalyan" mov="Muhabbet_Kart_Italyan" director="0" sub="0" />
+			<item id="36" orders="17" client="Cece Draje" name="Köpek" mov="Cece_Draje" director="0" sub="0" />
+			<item id="37" orders="18" client="Muhabbet Kart" name="Hintli" mov="Muhabbet_Kart_Hintli" director="0" sub="0" />
+			<item id="38" orders="19" client="VW Touareg" name="Lansman" mov="VW_Touareg_Lansman" director="0" sub="0" />
+			<item id="39" orders="20" client="Garanti Bankası" name="NBA Skill Challenge" mov="" director="0" sub="0" />
+			<item id="40" orders="0" client="Duru" name="Bir Kadın" mov="Duru_Bir_Kadin" director="1" sub="0" />
+			<item id="41" orders="1" client="Arko" name="Erkekler De Yanar" mov="Arko_Erkekler_De_Yanar" director="1" sub="0" />
+			<item id="42" orders="2" client="First Lava" name="Tuz Gölü" mov="First_Lava_Tuz_Golu" director="1" sub="0" />
+			<item id="43" orders="3" client="Arçelik" name="Inox" mov="Arcelik_Inox" director="1" sub="0" />
+			<item id="44" orders="4" client="First Ice" name="Kapadokya" mov="First_Ice_Kapadokya" director="1" sub="0" />
+			<item id="45" orders="5" client="Mc Donalds" name="İcatlar" mov="McDonalds_Icatlar" director="1" sub="0" />
+			<item id="46" orders="6" client="Bosch OBM" name="Yıldönümü" mov="Bosch_OBM_Yildonumu" director="1" sub="0" />
+			<item id="47" orders="7" client="Eti Tutku" name="Tutku Ekspresi" mov="Eti_Tutku_Tutku_Ekspresi" director="1" sub="0" />
+			<item id="48" orders="8" client="Maret Etlee" name="Sürü" mov="Maret_Etlee_Suru" director="1" sub="0" />
+			<item id="49" orders="9" client="Yudum" name="Bebek" mov="Yudum_Bebek" director="1" sub="0" />
+			<item id="50" orders="10" client="Türk Telekom" name="Lig A" mov="Turk_Telekom_Lig_A" director="1" sub="0" />
+			<item id="51" orders="11" client="Siemens" name="Leblebi" mov="Siemens_Leblebi" director="1" sub="0" />
+			<item id="52" orders="12" client="Fasıl Rakı" name="Fasıl" mov="Fasil_Raki_Fasil" director="1" sub="0" />
+			<item id="53" orders="13" client="Bosch OÇM" name="Umursamama" mov="Bosch_OCM_Umursamama" director="1" sub="0" />
+			<item id="54" orders="14" client="Şölen" name="Tulipano" mov="Solen_Tulipano" director="1" sub="0" />
+			<item id="55" orders="15" client="Arçelik" name="Yenileme" mov="Arcelik_Yenileme" director="1" sub="0" />
+			<item id="56" orders="16" client="Bosch OÇM" name="Kronometre" mov="Bosch_OCM_Kronometre" director="1" sub="0" />
+			<item id="57" orders="17" client="AHE" name="Örümcek Adam" mov="AHE_Orumcekadam" director="1" sub="0" />
+			<item id="58" orders="18" client="Ecobella" name="Kadınlar Günü" mov="Ecobella_Kadinlar_Gunu" director="1" sub="0" />
+			<item id="59" orders="19" client="Tarkan" name="Start The Fire" mov="Tarkan_Start_The_Fire" director="1" sub="0" />
+			<item id="60" orders="20" client="Tarkan" name="Vay Anam Vay" mov="Tarkan_Vay_Anam_Vay" director="1" sub="0" />
+			<item id="61" orders="0" client="Garanti Bankası" name="Cep Şube" mov="Garanti_Cep_Sube" director="3" sub="0" />
+			<item id="62" orders="1" client="Turkcell" name="Sivas - Asarcık Köyü" mov="Turkcell_Sivas_Asarcik_Koyu" director="3" sub="0" />
+			<item id="63" orders="2" client="Turkcell" name="Bizbize Kampüs" mov="Turkcell_BizBize_Kampus" director="3" sub="0" />
+			<item id="64" orders="3" client="Garanti Flexi" name="MacBook Air" mov="Garanti_Flexi_MacBook_Air" director="3" sub="0" />
+			<item id="65" orders="4" client="Garanti Flexi" name="Harley-Davidson" mov="Garanti_Flexi_Harley_Davidson" director="3" sub="0" />
+			<item id="66" orders="5" client="Evy Baby" name="Koğuş" mov="Evy_Baby_Kogus" director="3" sub="0" />
+			<item id="67" orders="6" client="Turkcell" name="Ev Turkcell" mov="Turkcell_EvTurkcell" director="3" sub="0" />
+			<item id="68" orders="7" client="Turkcell" name="Can" mov="Turkcell_Can" director="3" sub="0" />
+			<item id="69" orders="8" client="Evy Lady" name="Denizci" mov="Evy_Lady_Denizci" director="3" sub="0" />
+			<item id="70" orders="9" client="Evy Lady" name="Hostes" mov="Evy_Lady_Hostes" director="3" sub="0" />
+			<item id="71" orders="10" client="Evy Lady" name="Manken" mov="Evy_Lady_Manken" director="3" sub="0" />
+			<item id="72" orders="11" client="Evy Lady" name="Garson" mov="Evy_Lady_Garson" director="3" sub="0" />
+			<item id="73" orders="12" client="" name="Okul" mov="Okul_Fragman" director="3" sub="2" />
+			<item id="74" orders="13" client="" name="Küçük Kıyamet" mov="Kucuk_Kiyamet_Fragman" director="3" sub="2" />
+		</directorsreel>
+		<housereel>
+			<item id="0" orders="0" client="Arçelik" name="Orbital" agency="Reklamevi" mov="Arcelik_Orbital" director="0" />
+			<item id="1" orders="1" client="Duru" name="Bir Kadın" agency="Pars McCann-Erickson" mov="Duru_Bir_Kadin" director="1" />
+			<item id="2" orders="2" client="Arko" name="Erkekler De Yanar" agency="Pars McCann-Erickson" mov="Arko_Erkekler_De_Yanar" director="1" />
+			<item id="3" orders="3" client="First Lava" name="Tuz Gölü" agency="Reklamevi" mov="First_Lava_Tuz_Golu" director="1" />
+			<item id="4" orders="4" client="Papia" name="Yarış Pisti" agency="Reklamevi" mov="Papia_Yaris_Pisti" director="0" />
+			<item id="5" orders="5" client="Bosch OBM" name="Yıldönümü" agency="Altıncıduyu" mov="Bosch_OBM_Yildonumu" director="1" />
+			<item id="6" orders="6" client="hepsiburada.com" name="Telefon" agency="Rafineri" mov="Hepsiburada.com_Telefon" director="2" />
+			<item id="7" orders="7" client="hepsiburada.com" name="Koşu Bandı" agency="Rafineri" mov="Hepsiburada.com_Kosu_Bandi" director="2" />
+			<item id="8" orders="8" client="hepsiburada.com" name="Laptop" agency="Rafineri" mov="Hepsiburada.com_Laptop" director="2" />
+			<item id="9" orders="9" client="Avea" name="Müzik İndir" agency="Reklamevi" mov="Avea_Muzik_Indir" director="0" />
+			<item id="10" orders="10" client="First Ice" name="Kapadokya" agency="Reklamevi" mov="First_Ice_Kapadokya" director="1" />
+			<item id="11" orders="11" client="Vodafone" name="Plaj" agency="Manajans-Thomson" mov="Vodafone_Plaj" director="2" />
+			<item id="12" orders="12" client="Vodafone" name="Futbol" agency="Manajans-Thomson" mov="Vodafone_Futbol" director="2" />
+			<item id="13" orders="13" client="Mc Donalds" name="Türkücü" agency="Leoburnett" mov="McDonalds_Turkucu" director="0" />
+			<item id="14" orders="14" client="Siber Alem" name="Leyle ile Mecnun" agency="Hep Ajans" mov="Siberalem_Leyla_ile_Mecnun" director="2" />
+			<item id="15" orders="15" client="Siber Alem" name="Ferhat ile Şirin" agency="Hep Ajans" mov="Siberalem_Ferhat_ile_Sirin" director="2" />
+			<item id="16" orders="16" client="Arçelik" name="Inox" agency="Reklamevi" mov="Arcelik_Inox" director="1" />
+			<item id="17" orders="17" client="Turkcell S. Lig" name="Kahveci" agency="Leoburnett" mov="TurkcellSuperlig_Kahveci" director="2" />
+			<item id="18" orders="18" client="Turkcell S. Lig" name="Baklava" agency="Leoburnett" mov="TurkcellSuperlig_Baklava" director="2" />
+			<item id="19" orders="19" client="Turkcell S. Lig" name="Berber" agency="Leoburnett" mov="TurkcellSuperlig_BerBer" director="2" />
+			<item id="20" orders="20" client="Dimes" name="Kurumsal" agency="Modajans" mov="Dimes_Kurumsal" director="0" />
+			<item id="21" orders="21" client="Mc Donalds" name="İcatlar" agency="Leoburnett" mov="McDonalds_Icatlar" director="1" />
+			<item id="22" orders="22" client="BGD" name="Köpek" agency="Leoburnett" mov="BGD_Kopek" director="2" />
+			<item id="23" orders="23" client="Toçev" name="Andımız" agency="Grey Worldwide" mov="Tocev_Andimiz" director="0" />
+			<item id="24" orders="24" client="Show Plus" name="Lansman" agency="Grey Worldwide" mov="Show_Plus_Lansman" director="4" />
+			<item id="25" orders="25" client="Akşam" name="Relansman" agency="Grey Worldwide" mov="Aksam_Relansman" director="5" />
+			<item id="26" orders="26" client="Ecobella" name="Kadınlar Günü" agency="Kare Ajans" mov="Ecobella_Kadinlar_Gunu" director="1" />
+			<item id="27" orders="27" client="Bosch OÇM" name="Umursamama" agency="Altıncıduyu" mov="Bosch_OCM_Umursama" director="1" />
+			<item id="28" orders="28" client="Ülker Çubuk" name="Fabrikatör" agency="Leoburnett" mov="Ulker_Cubuk_Fabrikator" director="0" />
+			<item id="29" orders="29" client="Ülker Çubuk" name="Türkiye Güzeli" agency="Leoburnett" mov="Ulker_Cubuk_Turkiye_Guzeli" director="0" />
+			<item id="30" orders="30" client="Eti Tutku" name="Tutku Ekspresi" agency="Güzel Sanatlar" mov="Eti_Tutku_Tutku_Ekspresi" director="1" />
+			<item id="31" orders="31" client="Bosch Soğutucu" name="Sabah Sabah" agency="Altıncıduyu" mov="Bosch_Sogutucu_Sabah_Sabah" director="1" />
+		</housereel>
+		<latest>
+			<item id="0" orders="0" client="Arçelik" name="Orbital" agency="Reklamevi" mov="Arcelik_Orbital" director="0" />
+			<item id="1" orders="1" client="Duru" name="Bir Kadın" agency="Pars McCann-Erickson" mov="Duru_Bir_Kadin" director="1" />
+			<item id="2" orders="2" client="Arko" name="Erkekler De Yanar" agency="Pars McCann-Erickson" mov="Arko_Erkekler_De_Yanar" director="1" />
+			<item id="3" orders="3" client="First Lava" name="Tuz Gölü" agency="Reklamevi" mov="First_Lava_Tuz_Golu" director="1" />
+			<item id="4" orders="4" client="Papia" name="Yarış Pisti" agency="Reklamevi" mov="Papia_Yaris_Pisti" director="0" />
+		</latest>
+		<contact>
+			<item id="0" orders="0" name="Hazer Baycan" tel="0532.362.12.76" email="hazer.baycan@kalafilm.com" />
+			<item id="1" orders="1" name="Tamer Uner" tel="0533.232.65.33" email="tamer.uner@kalafilm.com" />
+			<item id="2" orders="2" name="Fikret Manoğlu" tel="0533.363.08.08" email="fikret.manoglu@kalafilm.com" />
+		</contact>
+		<directorsubs>
+			<item id="0" name="Commercial" />
+			<item id="1" name="Music Videos" />
+			<item id="2" name="Featured Films" />
+		</directorsubs>
+	</db>

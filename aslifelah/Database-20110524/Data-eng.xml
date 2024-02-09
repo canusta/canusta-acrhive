@@ -1,0 +1,654 @@
+<data>
+	
+	<staticnames>
+		<menu>
+			<item margin='1' lnk='/yatchs/' typ='gallery'>
+				YATCHS
+			</item>
+			<item margin='-2' lnk='/about/' typ='about'>
+				ABOUT
+			</item>
+			<item margin='-2' lnk='/news/' typ='news'>
+				NEWS
+			</item>
+			<item margin='-2' lnk='/contact/' typ='contact'>
+				CONTACT
+			</item>
+		</menu>
+		<language>
+			<item url='http://www.aslifelah.com/tr/'>
+				Türkçe
+			</item>
+			<item url='http://www.aslifelah.com/it/'>
+				Italiano
+			</item>
+		</language>
+		<yatch>
+			<item ids='length'>
+				Length
+			</item>
+			<item ids='lengthofhull'>
+				Length of Hull
+			</item>
+			<item ids='beam'>
+				Beam
+			</item>
+			<item ids='maxspeed'>
+				Max. Speed
+			</item>
+			<item ids='exterior'>
+				EXTERIOR PHOTOGRAPHS
+			</item>
+			<item ids='interior'>
+				INTERIOR PHOTOGRAPHS
+			</item>
+			<item ids='layout'>
+				LAYOUT
+			</item>
+			<item ids='back'>
+				BACK
+			</item>
+		</yatch>
+	</staticnames>
+	
+	
+	
+	<productlabels>
+		<label thumbnail='itama.png'>
+			itama
+		</label>
+		<label thumbnail='numarine.png'>
+			numarine
+		</label>
+		<label thumbnail='pershing.png'>
+			pershing
+		</label>
+	</productlabels>
+	
+	
+	
+	<page lnk='/about/'>
+		
+		<column id='left'>
+			<image height='153'>
+				aslifelah.jpg
+			</image>
+			<text>
+				<![CDATA[Aslı Felah is vero eos et accusamus et Ousto Edio dignissimos ducimus qui blanditiis, praesentium.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque... Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo Nam libero tempore, cum soluta nobis est eligendi.]]>
+			</text>
+			<links>
+				<link lbl='facebook'>
+					www.facebook.com/aslifelah
+				</link>
+				<link lbl='twitter'>
+					www.tiwtter.com/aslifelah
+				</link>
+			</links>
+		</column>
+		
+		<column id='right'>
+			<image height='153'>
+				aslifelahco.jpg
+			</image>
+			<text>
+				<![CDATA[Aslı Felah is vero eos et accusamus et Ousto Edio dignissimos ducimus qui blanditiis, praesentium.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque... Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo.]]>
+			</text>
+			<links>
+				<link lbl='aslifelahco.com'>
+					www.aslifelahco.com
+				</link>
+			</links>
+		</column>
+		
+	</page>
+	
+	<page lnk='/news/'>
+		<new>
+			<date>02.03.2010</date>
+			<txt><![CDATA[Omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.]]></txt>
+			<lnk></lnk>
+		</new>
+		<new>
+			<date>01.03.2010</date>
+			<txt><![CDATA[Omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.]]></txt>
+			<lnk>www.google.com</lnk>
+		</new>
+		<new>
+			<date>30.02.2010</date>
+			<txt><![CDATA[Lipsum.]]></txt>
+			<lnk></lnk>
+		</new>
+		<new>
+			<date>02.03.2010</date>
+			<txt><![CDATA[Omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.]]></txt>
+			<lnk></lnk>
+		</new>
+		<new>
+			<date>01.03.2010</date>
+			<txt><![CDATA[Omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.]]></txt>
+			<lnk>www.google.com</lnk>
+		</new>
+		<new>
+			<date>30.02.2010</date>
+			<txt><![CDATA[Omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.]]></txt>
+			<lnk></lnk>
+		</new>
+		<new>
+			<date>02.03.2010</date>
+			<txt><![CDATA[Omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.]]></txt>
+			<lnk></lnk>
+		</new>
+		<new>
+			<date>01.03.2010</date>
+			<txt><![CDATA[Omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.]]></txt>
+			<lnk>www.google.com</lnk>
+		</new>
+		<new>
+			<date>30.02.2010</date>
+			<txt><![CDATA[Omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.]]></txt>
+			<lnk></lnk>
+		</new>
+	</page>	
+	
+	<page lnk='/contact/'>
+		
+		<pageitem lbl='E-Mail' icon=''>contact@aslifelah.com</pageitem>
+		<pageitem lbl='Phone' icon=''>+90.532.264.52.51</pageitem>
+		<pageitem lbl='Address' icon=''>Lorem Ipsum Dolor Sit Amet 80210</pageitem>
+		<pageitem lbl='Skype' icon='skype.png'>aslifelah</pageitem>
+		
+	</page>
+	
+	<page lnk='/yatchs/'>
+		
+		<label name='itama'>
+			<product lnk='/yatchs/itama-0/' typ='product'>
+				<name>
+					<![CDATA['40]]>
+				</name>
+				<category>
+					0
+				</category>
+				<thumbnail width='100'>
+					itama-40-thumbnail.png
+				</thumbnail>
+				<property>
+					<![CDATA[55'9" / 18m]]>
+				</property>
+				<property>
+					<![CDATA[52' / 15.81m]]>
+				</property>
+				<property>
+					<![CDATA[14'8" / 4.49m]]>
+				</property>
+				<property>
+					<![CDATA[31kn]]>
+				</property>
+				<link>
+					<![CDATA[www.itama.com]]>
+				</link>
+				<gallery category='0'>
+					<image>
+						00.jpg
+					</image>
+					<image>
+						01.jpg
+					</image>
+					<image>
+						02.jpg
+					</image>
+					<image>
+						03.jpg
+					</image>
+				</gallery>
+				<gallery category='1'>
+					<image>
+						04.jpg
+					</image>
+					<image>
+						05.jpg
+					</image>
+					<image>
+						06.jpg
+					</image>
+					<image>
+						07.jpg
+					</image>
+				</gallery>
+				<gallery category='2'>
+					<image>
+						08.jpg
+					</image>
+					<image>
+						09.jpg
+					</image>
+					<image>
+						10.jpg
+					</image>
+				</gallery>
+			</product>
+		
+			<product lnk='/yatchs/itama-50/' typ='product'>
+				<name>
+					<![CDATA['50]]>
+				</name>
+				<category>
+					0
+				</category>
+				<thumbnail width='125'>
+					itama-50-thumbnail.png
+				</thumbnail>
+				<property>
+					<![CDATA[55'9" / 18m]]>
+				</property>
+				<property>
+					<![CDATA[52' / 15.81m]]>
+				</property>
+				<property>
+					<![CDATA[14'8" / 4.49m]]>
+				</property>
+				<property>
+					<![CDATA[31kn]]>
+				</property>
+				<link>
+					<![CDATA[www.itama.com]]>
+				</link>
+				<gallery category='0'>
+					<image>
+						00.jpg
+					</image>
+					<image>
+						01.jpg
+					</image>
+					<image>
+						02.jpg
+					</image>
+					<image>
+						03.jpg
+					</image>
+				</gallery>
+				<gallery category='1'>
+					<image>
+						00.jpg
+					</image>
+					<image>
+						01.jpg
+					</image>
+					<image>
+						02.jpg
+					</image>
+					<image>
+						03.jpg
+					</image>
+				</gallery>
+				<gallery category='2'>
+					<image>
+						00.jpg
+					</image>
+					<image>
+						01.jpg
+					</image>
+					<image>
+						02.jpg
+					</image>
+					<image>
+						03.jpg
+					</image>
+				</gallery>
+			</product>
+		
+			<product lnk='/yatchs/itama-55/' typ='product'>
+				<name>
+					<![CDATA['55]]>
+				</name>
+				<category>
+					0
+				</category>
+				<thumbnail width='137'>
+					itama-55-thumbnail.png
+				</thumbnail>
+				<property>
+					<![CDATA[55'9" / 18m]]>
+				</property>
+				<property>
+					<![CDATA[52' / 15.81m]]>
+				</property>
+				<property>
+					<![CDATA[14'8" / 4.49m]]>
+				</property>
+				<property>
+					<![CDATA[31kn]]>
+				</property>
+				<link>
+					<![CDATA[www.itama.com]]>
+				</link>
+				<gallery category='0'>
+					<image>
+						00.jpg
+					</image>
+					<image>
+						01.jpg
+					</image>
+					<image>
+						02.jpg
+					</image>
+					<image>
+						03.jpg
+					</image>
+				</gallery>
+				<gallery category='1'>
+					<image>
+						00.jpg
+					</image>
+					<image>
+						01.jpg
+					</image>
+					<image>
+						02.jpg
+					</image>
+					<image>
+						03.jpg
+					</image>
+				</gallery>
+				<gallery category='2'>
+					<image>
+						00.jpg
+					</image>
+					<image>
+						01.jpg
+					</image>
+					<image>
+						02.jpg
+					</image>
+					<image>
+						03.jpg
+					</image>
+				</gallery>
+			</product>
+		
+			<product lnk='/yatchs/itama-75/' typ='product'>
+				<name>
+					<![CDATA['75]]>
+				</name>
+				<category>
+					0
+				</category>
+				<thumbnail width='187'>
+					itama-75-thumbnail.png
+				</thumbnail>
+				<property>
+					<![CDATA[55'9" / 18m]]>
+				</property>
+				<property>
+					<![CDATA[52' / 15.81m]]>
+				</property>
+				<property>
+					<![CDATA[14'8" / 4.49m]]>
+				</property>
+				<property>
+					<![CDATA[31kn]]>
+				</property>
+				<link>
+					<![CDATA[www.itama.com]]>
+				</link>
+				<gallery category='0'>
+					<image>
+						00.jpg
+					</image>
+					<image>
+						01.jpg
+					</image>
+					<image>
+						02.jpg
+					</image>
+					<image>
+						03.jpg
+					</image>
+				</gallery>
+				<gallery category='1'>
+					<image>
+						00.jpg
+					</image>
+					<image>
+						01.jpg
+					</image>
+					<image>
+						02.jpg
+					</image>
+					<image>
+						03.jpg
+					</image>
+				</gallery>
+				<gallery category='2'>
+					<image>
+						00.jpg
+					</image>
+					<image>
+						01.jpg
+					</image>
+					<image>
+						02.jpg
+					</image>
+					<image>
+						03.jpg
+					</image>
+				</gallery>
+			</product>
+		</label>
+		
+		<label name='numarine'>
+			<product lnk='/yatchs/numarine-78fly/' typ='product'>
+				<name>
+					<![CDATA['78 Fly]]>
+				</name>
+				<category>
+					1
+				</category>
+				<thumbnail width='195'>
+					numarine-78fly-thumbnail.png
+				</thumbnail>
+				<property>
+					<![CDATA[55'9" / 18m]]>
+				</property>
+				<property>
+					<![CDATA[52' / 15.81m]]>
+				</property>
+				<property>
+					<![CDATA[14'8" / 4.49m]]>
+				</property>
+				<property>
+					<![CDATA[31kn]]>
+				</property>
+				<link>
+					<![CDATA[www.numarine.com]]>
+				</link>
+				<gallery category='0'>
+					<image>
+						00.jpg
+					</image>
+					<image>
+						01.jpg
+					</image>
+					<image>
+						02.jpg
+					</image>
+					<image>
+						03.jpg
+					</image>
+				</gallery>
+				<gallery category='1'>
+					<image>
+						00.jpg
+					</image>
+					<image>
+						01.jpg
+					</image>
+					<image>
+						02.jpg
+					</image>
+					<image>
+						03.jpg
+					</image>
+				</gallery>
+				<gallery category='2'>
+					<image>
+						00.jpg
+					</image>
+					<image>
+						01.jpg
+					</image>
+					<image>
+						02.jpg
+					</image>
+					<image>
+						03.jpg
+					</image>
+				</gallery>
+			</product>
+		
+			<product lnk='/yatchs/numarine-78ht/' typ='product'>
+				<name>
+					<![CDATA['78 Hardtop]]>
+				</name>
+				<category>
+					1
+				</category>
+				<thumbnail width='195'>
+					numarine-78ht-thumbnail.png
+				</thumbnail>
+				<property>
+					<![CDATA[55'9" / 18m]]>
+				</property>
+				<property>
+					<![CDATA[52' / 15.81m]]>
+				</property>
+				<property>
+					<![CDATA[14'8" / 4.49m]]>
+				</property>
+				<property>
+					<![CDATA[31kn]]>
+				</property>
+				<link>
+					<![CDATA[www.numarine.com]]>
+				</link>
+				<gallery category='0'>
+					<image>
+						00.jpg
+					</image>
+					<image>
+						01.jpg
+					</image>
+					<image>
+						02.jpg
+					</image>
+					<image>
+						03.jpg
+					</image>
+				</gallery>
+				<gallery category='1'>
+					<image>
+						00.jpg
+					</image>
+					<image>
+						01.jpg
+					</image>
+					<image>
+						02.jpg
+					</image>
+					<image>
+						03.jpg
+					</image>
+				</gallery>
+				<gallery category='2'>
+					<image>
+						00.jpg
+					</image>
+					<image>
+						01.jpg
+					</image>
+					<image>
+						02.jpg
+					</image>
+					<image>
+						03.jpg
+					</image>
+				</gallery>
+			</product>
+		</label>
+		
+		<label name='pershing'>
+			<product lnk='/yatchs/pershing-64/' typ='product'>
+				<name>
+					<![CDATA['64]]>
+				</name>
+				<category>
+					2
+				</category>
+				<thumbnail width='160'>
+					pershing-64-thumbnail.png
+				</thumbnail>
+				<property>
+					<![CDATA[55'9" / 18m]]>
+				</property>
+				<property>
+					<![CDATA[52' / 15.81m]]>
+				</property>
+				<property>
+					<![CDATA[14'8" / 4.49m]]>
+				</property>
+				<property>
+					<![CDATA[31kn]]>
+				</property>
+				<link>
+					<![CDATA[www.pershing.com]]>
+				</link>
+				<gallery category='0'>
+					<image>
+						00.jpg
+					</image>
+					<image>
+						01.jpg
+					</image>
+					<image>
+						02.jpg
+					</image>
+					<image>
+						03.jpg
+					</image>
+				</gallery>
+				<gallery category='1'>
+					<image>
+						00.jpg
+					</image>
+					<image>
+						01.jpg
+					</image>
+					<image>
+						02.jpg
+					</image>
+					<image>
+						03.jpg
+					</image>
+				</gallery>
+				<gallery category='2'>
+					<image>
+						00.jpg
+					</image>
+					<image>
+						01.jpg
+					</image>
+					<image>
+						02.jpg
+					</image>
+					<image>
+						03.jpg
+					</image>
+				</gallery>
+			</product>
+		</label>
+		
+	</page>
+	
+	
+	
+</data>

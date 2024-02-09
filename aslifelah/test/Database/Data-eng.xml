@@ -1,0 +1,102 @@
+<data>
+	
+	<staticnames>
+		<menu>
+			<item margin='1'>
+				YATCHS
+			</item>
+			<item margin='-2'>
+				ABOUT
+			</item>
+			<item margin='-2'>
+				NEWS
+			</item>
+			<item margin='-2'>
+				CONTACT
+			</item>
+		</menu>
+		<language>
+			<item>
+				Türkçe
+			</item>
+			<item>
+				Italiano
+			</item>
+		</language>
+		<yatch>
+			<item>
+				BACK
+			</item>
+			<item>
+				Length
+			</item>
+			<item>
+				Length of Hull
+			</item>
+			<item>
+				Beam
+			</item>
+			<item>
+				Max. Speed
+			</item>
+			<item>
+				EXTERIOR PHOTOGRAPHS
+			</item>
+			<item>
+				INTERIOR PHOTOGRAPHS
+			</item>
+			<item>
+				LAYOUT
+			</item>
+		</yatch>
+	</staticnames>
+	
+	<yatchs url='yatchs'>
+		<label name='numarine' logo='numarine.png'>
+			<yatch>
+				<name>
+					<![CDATA['68 Fly]]>
+				</name>
+				<thumbnail>
+					numarine-68-fly-thumbnail.png
+				</thumbnail>
+				<url>
+					numarine-68-fly
+				</url>
+				<property>
+					<![CDATA[55'9" / 18m]]>
+				</property>
+				<property>
+					<![CDATA[52' / 15.81m]]>
+				</property>
+				<property>
+					<![CDATA[14'8" / 4.49m]]>
+				</property>
+				<property>
+					<![CDATA[31kn]]>
+				</property>
+				<link>
+					<![CDATA[http://www.numarine.com]]>
+				</link>
+				<gallery>
+					<image>
+						numarine-68-fly-0.jpg
+					</image>
+					<image>
+						numarine-68-fly-1.jpg
+					</image>
+					<image>
+						numarine-68-fly-2.jpg
+					</image>
+					<image>
+						numarine-68-fly-3.jpg
+					</image>
+					<image>
+						numarine-68-fly-4.jpg
+					</image>
+				</gallery>
+			</yatch>
+		</label>
+	</yatchs>
+	
+</data>

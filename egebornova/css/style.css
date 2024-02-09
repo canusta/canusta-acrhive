@@ -1,0 +1,1361 @@
+
+
+
+
+
+
+
+
+
+/* ================================================================================= */
+/*                                                                                   */
+/*                                                                                   */
+/*                                                                                   */
+/*                                                                                   */
+/*        FONTS                                                                     */
+/*                                                                                   */
+/*                                                                                   */
+/*                                                                                   */
+/*                                                                                   */
+/* ================================================================================= */
+
+
+
+
+
+@font-face {
+    font-family: 'futura';
+    src: url('../fonts/futura_medium_bt-webfont.eot');
+    src: url('../fonts/futura_medium_bt-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/futura_medium_bt-webfont.woff') format('woff'),
+         url('../fonts/futura_medium_bt-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+		font-family: 'ChronicleDisplay-Roman';
+		src: url('../fonts/chronicledisp-roman.eot');
+		src: url('../fonts/chronicledisp-roman.eot?#iefix') format('embedded-opentype'),
+				 url('../fonts/chronicledisp-roman.woff') format('woff'),
+				 url('../fonts/chronicledisp-roman.ttf') format('truetype'),
+				 url('../fonts/chronicledisp-roman.svg#chronicledisp-roman') format('svg');
+		font-weight: normal;
+		font-style: normal;
+}
+
+@font-face {
+		font-family: 'ChronicleDisplay-Italic';
+		src: url('../fonts/chronicledisp-italic.eot');
+		src: url('../fonts/chronicledisp-italic.eot?#iefix') format('embedded-opentype'),
+				 url('../fonts/chronicledisp-italic.woff') format('woff'),
+				 url('../fonts/chronicledisp-italic.ttf') format('truetype'),
+				 url('../fonts/chronicledisp-italic.svg#chronicledisp-italic') format('svg');
+		font-weight: normal;
+		font-style: normal;
+}
+
+@font-face {
+		font-family: 'ChronicleDisplay-Bold';
+		src: url('../fonts/chronicledisp-bold.eot');
+		src: url('../fonts/chronicledisp-bold.eot?#iefix') format('embedded-opentype'),
+				 url('../fonts/chronicledisp-bold.woff') format('woff'),
+				 url('../fonts/chronicledisp-bold.ttf') format('truetype'),
+				 url('../fonts/chronicledisp-bold.svg#chronicledisp-bold') format('svg');
+		font-weight: normal;
+		font-style: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ================================================================================= */
+/*                                                                                   */
+/*                                                                                   */
+/*                                                                                   */
+/*                                                                                   */
+/*        OPENING                                                                     */
+/*                                                                                   */
+/*                                                                                   */
+/*                                                                                   */
+/*                                                                                   */
+/* ================================================================================= */
+
+.root #header {
+	display: none;
+}
+
+.root #rootMenuContainer {
+	display: none;
+}
+
+.root #rootEgeLogo {
+	display: none;
+}
+
+.root #rootLangButton {
+	display: none;
+}
+
+.root #rootKavuklarLogo {
+	display: none;
+}
+
+.root #main {
+	display: none;
+}
+
+.root #footer {
+	display: none;
+}
+
+#rootPageSectionHaber{
+/* 	display: none; */
+}
+
+#rootPageSectionMedya {
+	display: none;
+}
+
+.root #mainNewsletter {
+	display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ================================================================================= */
+/*                                                                                   */
+/*                                                                                   */
+/*                                                                                   */
+/*                                                                                   */
+/*        COMMON                                                                     */
+/*                                                                                   */
+/*                                                                                   */
+/*                                                                                   */
+/*                                                                                   */
+/* ================================================================================= */
+
+
+html {
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+body {
+	background-image: url("../img/_static/bodyBg.gif");
+	background-repeat: repeat;
+	overflow-x: hidden;
+	font-family: 'ChronicleDisplay-Italic', serif;
+	font-size: 16px;
+	color: #464646;
+	letter-spacing: 1px;
+	min-width: 1000px;
+}
+
+a:hover{
+	text-decoration: none !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ================================================================================= */
+/*                                                                                   */
+/*                                                                                   */
+/*                                                                                   */
+/*                                                                                   */
+/*        HEADER                                                                     */
+/*                                                                                   */
+/*                                                                                   */
+/*                                                                                   */
+/*                                                                                   */
+/* ================================================================================= */
+
+.layer {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	text-align: center;
+/* 	opacity: 0; */ 
+/*  filter: alpha(opacity=0); */
+/*  -ms-filter: "alpha(opacity=0)"; */
+display: none;
+}
+
+#layer-building {
+	z-index: 400;
+}
+
+#layer-content {
+	z-index: 500;
+}
+
+#layer-ground-wc {
+	z-index: 120;
+}
+
+#layer-ground {
+	z-index: 103;
+}
+
+#layer-header {
+	z-index: 160;
+}
+
+#layer-hosgeldiniz {
+	z-index: 170;
+}
+
+#layer-menu {
+	z-index: 180;
+}
+
+#layer-sky-bg {
+	z-index: 100;
+}
+
+#layer-sky-pink {
+	z-index: 105;
+}
+
+#layer-header-2 {
+	z-index: 300;
+}
+
+.header {
+	z-index: 300;
+	
+}
+
+.header-bg {
+	z-index: 290;
+}
+
+
+
+#layer-sky-bg {
+	width: 100%;
+	height: 293px;
+}
+
+#layer-sky-bg img {
+/* display: block; */
+/* 	width: 100%; */
+/* 	height: 293px; */
+}
+
+#layer-loading {
+	position: fixed;
+	z-index: 1000;
+	width: 100%;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ================================================================================= */
+/*                                                                                   */
+/*                                                                                   */
+/*                                                                                   */
+/*                                                                                   */
+/*        MAIN MENU                                                                  */
+/*                                                                                   */
+/*                                                                                   */
+/*                                                                                   */
+/*                                                                                   */
+/* ================================================================================= */
+
+.root #rootMenuContainer {
+	position: absolute;
+	top: 180px;
+	z-index: 3000;
+	font-family: "futura";
+	font-size: 13px;
+	color: white;
+	width: 100%;
+	text-align: center;
+	padding-left: 300px;
+}
+
+#rootMenuContainer a {
+	color: white;
+}
+
+#rootMenuContainer a:hover {
+	color: #3A5F88;
+}
+
+
+.page #rootMenuContainer {
+	position: absolute;
+	top: 43px;
+	z-index: 3000;
+	font-family: "futura";
+	font-size: 13px;
+	color: white;
+	width: 100%;
+	text-align: center;
+	padding-left: 167px;
+}
+
+.root #rootEgeLogo {
+	position: absolute;
+	top: 52px;
+	z-index: 1000;
+	text-align: center;
+	width: 100%;
+	padding-left: 680px;
+}
+
+.page #rootEgeLogo {
+	position: absolute;
+	top: 2px;
+	z-index: 1000;
+	text-align: center;
+	width: 200px;
+	margin-left: -540px;
+	padding-left: 50%;
+	z-index: 3000;
+}
+
+#rootLangButton {
+display: none !important;
+	position: absolute;
+	top: 15px;
+	z-index: 1000;
+	text-align: center;
+	width: 100%;
+	padding-left: 300px;
+	font-family: "futura";
+	font-size: 8px;
+	color: white;
+	cursor: pointer;
+}
+
+#rootLangButton:hover {
+	padding-top: 1px;
+}
+
+.root #rootKavuklarLogo {
+	position: absolute;
+	top: 240px;
+	z-index: 1000;
+	text-align: center;
+	width: 100%;
+	padding-left: 300px;
+}
+
+.page #rootKavuklarLogo {
+	position: absolute;
+	top: 29px;
+	z-index: 1000;
+	text-align: center;
+	width: 100%;
+	padding-left: 453px;
+}
+
+.root #rootMenuContainer div span {
+	margin-right: 10px;
+	cursor: default;
+	color: white;
+}
+
+.page #rootMenuContainer div span {
+	margin-right: 10px;
+	cursor: default;
+	color: #3f6289;
+}
+
+.rootMenuRollOverContainer {
+	display: none;
+	position: absolute;
+	z-index: 4000;
+	top:100px;
+	left:100px;
+}
+
+.rootMenuRollOver{
+	background-color: #3a5f88;
+	font-family: "futura";
+	font-size: 13px;
+	color: white;
+	width: auto;
+/* 	position: fixed; */
+	padding: 20px;
+	z-index: 2000;
+}
+
+.rootMenuRollOver div{
+	color: white !important;
+}
+
+.rootMenuRollOver div{
+	margin-bottom: 5px;
+	z-index: 2000;
+}
+
+.rootMenuRollOver div:hover{
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+.rootMenuRollOverLeft{
+	background: transparent !important;
+	z-index: 2000;
+	height: 10px;
+	width: 10px;
+}
+
+#skipIntroButton {
+	position: absolute;
+	top: 15px;
+	z-index: 1000;
+	text-align: center;
+	width: 100%;
+	padding-left: 300px;
+	font-family: "futura";
+	font-size: 8px;
+	color: #3A5F88;
+	cursor: pointer;
+}
+
+.root #mainNewsletter {
+	position: absolute;
+	top: 0px;
+	z-index: 1000;
+	text-align: center;
+	width: 100%;
+	padding-left: 300px;
+	font-family: "futura";
+	font-size: 12px;
+	color: white;
+	text-align: center;
+	cursor: pointer;
+	padding-top: 10px;
+}
+
+.root #mainNewsletterBox {
+	
+	position: absolute;
+	top: 0px;
+	z-index: 1000;
+	text-align: center;
+	width: 100%;
+	padding-left: 300px;
+	font-family: "futura";
+	font-size: 12px;
+	color: white;
+	text-align: center;
+	cursor: pointer;
+	
+}
+
+.root #mainNewsletter:hover {
+
+	color: #3A5F88;
+	
+}
+
+.root #mainNewsletterBox {
+	
+	margin-top: -50px;
+	
+}
+
+.root #mainNewsletterBoxInner {
+	
+	background-color: #F2F2F2;
+	width: 240px;
+	margin: auto;
+	padding: 10px;
+	height: 28px;
+	
+}
+
+.root #mainNewsletterForm {
+
+	width: 190px;
+	height: 17px;
+	padding: 4px;
+	border: none;
+	border-top: 1px solid #d9d9d9;
+	margin-right: 10px;
+	float: left;
+	
+}
+
+.root #mainNewsletterSubmit {
+	
+	border: 0px solid white;
+	border-bottom: 1px solid #858585 !important;
+	background: #d9d9d9;
+	color: #858585;
+	font-family: "futura";
+	font-size: 12px;
+	padding: 4px;
+	width: 20px;
+	float: left;
+	cursor: pointer;
+	height: 18px;
+	
+}
+
+.root #mainNewsletterSubmit:hover {
+	
+	margin-top: 1px;
+	border: 0px solid white;
+	border-bottom: 0px solid #858585 !important;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ================================================================================= */
+/*                                                                                   */
+/*                                                                                   */
+/*                                                                                   */
+/*                                                                                   */
+/*        PAGE HEADER                                                                */
+/*                                                                                   */
+/*                                                                                   */
+/*                                                                                   */
+/*                                                                                   */
+/* ================================================================================= */
+
+
+#pageHeaderImage {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	text-align: center;
+}
+
+#rootEgeLogo {
+	position: absolute;
+	top: 5px;
+	z-index: 1000;
+	text-align: center;
+	width: 100%;
+	margin-left: -380px;
+}
+
+#pageHeaderBg{
+	position: absolute;
+	top: 0px;
+}
+
+.page #main{
+	z-index: 2000;
+	width: 100%;
+	text-align: center;
+	margin-top: 100px;
+	position: relative;
+	margin-left: -480px;
+	padding-left: 50%;
+	min-height: 600px;
+}
+
+.page #mainContent {
+	z-index: 2000;
+	position: relative;
+	width: 960px;
+	background-color: transparent;
+	height: auto;
+	text-align: left;
+}
+
+.mainMenuCurrent {
+	color: white !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ================================================================================= */
+/*                                                                                   */
+/*                                                                                   */
+/*                                                                                   */
+/*                                                                                   */
+/*        PAGE SUBMENU                                                               */
+/*                                                                                   */
+/*                                                                                   */
+/*                                                                                   */
+/*                                                                                   */
+/* ================================================================================= */
+
+
+.subMenu {
+	background: white;
+	position: relative;
+	top: 0px;
+	left: 0px;
+	background: white;
+	width: 960px;
+	height: 54px;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.subMenuItem {
+	float: left;
+	font-family: "futura";
+	font-size: 12px;
+	color: #9cafc3;;
+	background: white;
+	padding: 20px;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.subMenuItem:hover {
+	color: #395f88;
+}
+
+.current {
+	border-bottom: 1px solid white;
+	border-left: 1px solid #e5e5e5;
+	border-right: 1px solid #e5e5e5;
+	color: #395f88;
+}
+
+.subMenuItem:nth-child(1){
+/* 	border-left: 1px solid white !important; */
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ================================================================================= */
+/*                                                                                   */
+/*                                                                                   */
+/*                                                                                   */
+/*                                                                                   */
+/*        PAGE                                                               */
+/*                                                                                   */
+/*                                                                                   */
+/*                                                                                   */
+/*                                                                                   */
+/* ================================================================================= */
+
+
+.pageContent {
+	background: white;
+	padding: 20px;
+	margin-bottom: 40px;
+	min-height: 600px;
+}
+
+.noPadding {
+	padding: 0px !important;
+}
+
+#galleryArrowLeft, #galleryArrowRight{
+	width: 200px;
+	height: 252px;
+	float: left;
+	padding-top: 280px;
+/* 	background: red; */
+	position: absolute;
+	text-align: center;
+	cursor: pointer;
+}
+
+#galleryArrowLeft:hover, #galleryArrowRight:hover{
+	padding-top: 282px;
+}
+
+#galleryArrowRight {
+	right: 0px;
+}
+
+#gallery {
+	float: left;
+	width: 580px;
+	height: 580px;
+	position: absolute;
+	left: 190px;
+	overflow: hidden;
+}
+
+#galleryInner {
+	width: 580px;
+	height: 580px;
+}
+
+#galleryInner img {
+	display: none;
+}
+
+.galleryImage {
+	position: absolute;
+	float: left;
+	left: 0;
+	top: 0;
+}
+
+.pageGallery {
+	padding-top: 50px !important;
+	height: 660px;
+}
+
+#galleryPartTop {
+	position: absolute;
+	top: 62px;
+	left: 120px;
+	z-index: 4000;
+}
+
+#galleryPartBottom {
+	position: absolute;
+	top: 610px;
+	left: 120px;
+	z-index: 4000;
+}
+
+#iletisimFormu {
+	background-color: #f2f2f2;
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	height: 370px;
+}
+
+.iletisimFormuTextField{
+	width: 405px;
+	height: 17px;
+	padding: 10px;
+	border: none;
+	border-top: 1px solid #d9d9d9;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+.iletisimFormuTextFieldLong{
+	width: 850px;
+}
+
+.iletisimFormuTextArea{
+	width: 855px;
+	height: 117px;
+	padding: 10px;
+	border: none;
+	border-top: 1px solid #d9d9d9;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+input[placeholder], [placeholder], *[placeholder]
+{
+    font-family: "ChronicleDisplay-Italic" !important;
+}
+
+.iletisimFormuSubmit{
+	border: 0px solid white;
+	border-bottom: 1px solid #858585 !important;
+	background: #d9d9d9;
+	color: #858585;
+	font-family: "futura";
+	font-size: 12px;
+	padding: 10px;
+	width: 60px;
+	float: left;
+	cursor: pointer;
+}
+
+.iletisimFormuSubmit:hover{
+	margin-top: 1px;
+	border: 0px solid white;
+	border-bottom: 0px solid #858585 !important;
+	
+}
+
+.iletisimFormuMail {
+	float: right;
+	margin-right: 30px;
+	color: #858585;
+	margin-top: 10px;
+}
+
+.iletisimFormuMail a {
+	color: #858585;
+}
+
+.iletisimFormuMail:hover {
+	text-decoration: underline;
+}
+
+#iletisimFormuSent{
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background: #f2f2f2;
+}
+
+.formAlert {
+	
+	background-color: #f8d4d0;
+	
+}
+
+
+.haberListItem {
+	padding: 20px;
+}
+
+.haberListItemHeader {
+	color: #395F88;
+	font-family: "futura";
+	font-size: 16px;
+}
+
+.haberListItemDate {
+	color: #858585;
+	font-size: 10px;
+}
+
+.haberListItem:hover {
+	background-color: #f1f1f1;
+}
+
+.haberBody {
+	padding: 20px;
+	border-bottom: 1px #f1f1f1 solid;
+}
+
+.haberHeader{
+	color: #395F88;
+	font-family: "futura";
+	font-size: 24px;
+}
+
+.haberDate {
+	margin-bottom: 20px;
+}
+
+.haberText {
+	margin-bottom: 20px;
+}
+
+.haberImage img {
+	border: 4px #f1f1f1 solid;
+}
+
+.haberPage {
+	padding-top: 40px !important;
+}
+
+.pageGallery {
+}
+
+
+
+
+
+
+/* ================================================================================= */
+/*                                                                                   */
+/*                                                                                   */
+/*                                                                                   */
+/*                                                                                   */
+/*        ROOT PAGE                                                                  */
+/*                                                                                   */
+/*                                                                                   */
+/*                                                                                   */
+/*                                                                                   */
+/* ================================================================================= */
+
+.root #main{
+	z-index: 2000;
+	width: 100%;
+	text-align: center;
+	margin-top: 470px;
+	position: relative;
+	margin-left: -480px;
+	padding-left: 50%;
+}
+
+.root #mainContent {
+	z-index: 2000;
+	position: relative;
+	width: 960px;
+	background-color: transparent;
+	height: auto;
+	text-align: left;
+}
+
+.rootPageColumnHeader {
+	width: 420px;
+	height: 11px;
+	display: block;
+/* 	position: absolute; */
+	background: white;
+	font-family: "futura";
+	font-size: 13px;
+	color: #6d6d6d;
+	padding: 20px;
+	cursor: default;
+	margin-bottom: 1px;
+}
+
+.rootPageColumnContentWhite {
+	width: 420px;
+	display: block;
+/* 	position: absolute; */
+	background: white;
+	font-family: "ChronicleDisplay-Italic";
+	font-size: 16px;
+	color: #6d6d6d;
+	padding: 20px;
+	cursor: default;
+/* 	margin-bottom: 40px; */
+}
+
+.rootPageColumnContentWhite .downloadButton {
+	font-family: "futura";
+	background-color: #3a5f88;
+	padding: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: white;
+	font-size: 12px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	margin-left: 10px;
+	cursor: pointer
+}
+
+.rootPageColumnContentWhite .downloadButton:hover {
+	background-color: #2f86e7;
+}
+
+#katalogImage {
+	margin-top: -60px;
+	margin-left: 20px;
+	position: absolute;
+}
+
+#katPlanlariImage {
+	margin-top: -60px;
+	margin-left: 70px;
+	position: absolute;
+}
+
+#katalogContent {
+	font-size: 12px;
+	height: 40px;
+}
+
+.rootSide {
+	width: 460px;
+	float: left;
+}
+
+#rootLeftSide {
+	margin-right: 40px;
+}
+
+#rootRightSide {
+	
+}
+
+.rootPageColumnHeaderRight {
+	float: right;
+	font-size: 13px;
+	font-family: "ChronicleDisplay-Italic";
+	color: #b2b2b2;
+	cursor: pointer;
+}
+
+.rootPageColumnHeaderRight:hover {
+	color: #6d6d6d;
+}
+
+.rootPageColumnHeaderRightArrow {
+	margin-left: 10px;
+}
+
+.rootPageHaber {
+	display: block;
+	font-family: "ChronicleDisplay-Italic";
+	font-size: 13px;
+	color: #6d6d6d;
+/* 	min-height: 100%; */
+	height: 46px;
+	
+}
+
+.haberContent {
+	width: 380px;
+	padding: 20px;
+	cursor: default;
+	margin-bottom: 1px;
+	margin-right: 1px;
+	float: left;
+	background: white;
+/* 	height: 	200px */
+	height: 100%;
+}
+
+.haberButton {
+	background: white;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	float: right;
+	width: 19px;
+	height: 100%;
+	display: table-cell;
+	background-image: url('../img/_static/haberArrow.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	cursor: pointer;
+}
+
+.haberButton:hover {
+	background-color: #3a5f88;
+	background-image: url('../img/_static/haberArrow-hover.png');
+	
+}
+
+.haberDate {
+	font-family: "ChronicleDisplay-Roman";
+	color: #c1c1c1;
+	font-size: 12px;
+}
+
+#rootPageSectionHaber {
+	
+}
+
+#rootPageSectionKatalog {
+	height: 130px;
+}
+
+.rootPageSection {
+	display: table;
+	margin-bottom: 40px;
+}
+
+.rootPageMedya {
+	width: 462px;
+}
+
+.medyaContent {
+	width: 190px;
+	padding: 20px;
+	float: left;
+	margin-right: 1px;
+	background-color: white;
+	cursor: pointer;
+	height: 400px;
+}
+
+.medyaContent:hover {
+	background-color: #3a5f88;
+	color: white;
+}
+
+.medyaDate {
+	font-size: 12px;
+	font-family: "ChronicleDisplay-Roman";
+}
+
+.medyaImage{
+	height: 260px;
+}
+
+#rootButtonFacebook {
+	width: 156px;
+	height: 57px;
+	background-image: url('../img/_static/rootFacebook.png');
+	margin-right: 1px;
+	cursor: pointer;
+	float: left;
+	background-color: #3a5f88;
+}
+
+#rootButtonFacebook:hover {
+	background-image: url('../img/_static/rootFacebookHover.png');
+}
+
+#rootButtonTwitter {
+	width: 142px;
+	height: 57px;
+	background-image: url('../img/_static/rootTwitter.png');
+	margin-right: 1px;
+	cursor: pointer;
+	float: left;
+	background-color: #3a5f88;
+}
+
+#rootButtonTwitter:hover {
+	background-image: url('../img/_static/rootTwitterHover.png');
+}
+
+#rootButtonFoursquare {
+	width: 159px;
+	height: 57px;
+	background-image: url('../img/_static/rootFoursquare.png');
+	cursor: pointer;
+	float: left;
+	background-color: #3a5f88;
+	margin-bottom: 40px;
+}
+
+#rootButtonFoursquare:hover {
+	background-image: url('../img/_static/rootFoursquareHover.png');
+}
+
+.root #mainContent {
+	padding-bottom: 40px;
+}
+
+.haberContent {
+	cursor: pointer !important;
+}
+
+.haberContent:hover {
+	background: #3a5f88 !important;
+	color: white !important;
+}
+
+
+
+
+
+/* ================================================================================= */
+/*                                                                                   */
+/*                                                                                   */
+/*                                                                                   */
+/*                                                                                   */
+/*       FOOTER                                                                      */
+/*                                                                                   */
+/*                                                                                   */
+/*                                                                                   */
+/*                                                                                   */
+/* ================================================================================= */
+
+
+
+#footer {
+	background-image: url('../img/_static/footerBg.png');
+	width: 100%;
+	height: 360px;
+	position: relative;
+	clear: both;
+	text-align: center;
+	margin-left: -480px;
+	padding-left: 50%;
+}
+
+
+
+#footerContent {
+	position: relative;
+	width: 960px;
+	background-color: transparent;
+	height: auto;
+	text-align: left;
+	padding-top: 36px;
+	font-size: 12px;
+	color: white;
+}
+
+.footerLeft {
+	float: left;
+	margin-right: 20px;
+}
+
+.footerPart {
+	margin-top: 36px;
+}
+
+.footerLabel {
+	text-decoration: underline;
+}
+
+.footerMenuPart {
+	width: 180px;
+	float: left;
+}
+
+.footerButton {
+	clear: both;
+	margin-top: 6px;
+	cursor: pointer;
+	color: white;
+}
+
+.footerButton:hover {
+	padding-left: 2px;
+}
+
+.footerArrow {
+	margin-right: 6px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ================================================================================= */
+/*                                                                                   */
+/*                                                                                   */
+/*                                                                                   */
+/*                                                                                   */
+/*        MOBILE                                                                     */
+/*                                                                                   */
+/*                                                                                   */
+/*                                                                                   */
+/*                                                                                   */
+/* ================================================================================= */
+
+
+
+@media only screen and (min-width: 480px) {
+
+
+}
+
+@media only screen and (min-width: 768px) {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+ #my-video { margin-left: 60px; }

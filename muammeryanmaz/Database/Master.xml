@@ -1,0 +1,69 @@
+﻿<data>
+	
+	<backgrounds>
+		<item imagewidth="570" imageheight="380">bg1.jpg</item>
+		<item imagewidth="661" imageheight="488">bg2.jpg</item>
+		<item imagewidth="554" imageheight="369">bg3.jpg</item>
+	</backgrounds>
+	
+	<reklam>
+		<item name="Reklam Adı" thumbnail="reklam-thumb-00.jpg" cap="Reklam Adı" width="276" sub="0" imagewidth="554" imageheight="369">reklam-00.jpg</item>
+		<item name="Reklam Adı" thumbnail="reklam-thumb-01.jpg" cap="Reklam Adı" width="132"sub="0" imagewidth="272" imageheight="380">reklam-01.jpg</item>
+		<item name="Reklam Adı" thumbnail="reklam-thumb-02.jpg" cap="Reklam Adı" width="125"sub="0" imagewidth="259" imageheight="380">reklam-02.jpg</item>
+		<item name="Reklam Adı" thumbnail="reklam-thumb-03.jpg" cap="Reklam Adı" width="277"sub="0" imagewidth="572" imageheight="380">reklam-03.jpg</item>
+	</reklam>
+	
+	<projeler>
+		<item name="40 İstasyon Londra" thumbnail="projeler-40istasyonlondra-thumb.jpg" cap="" width="185" sub="1">
+			<image thumbnail="projeler-40istasyonlondra-thumb-00.jpg" cap="Kişinin İsmi" width="184" sub="0" imagewidth="379" imageheight="380">projeler-40istasyonlondra-00.jpg</image>
+			<image thumbnail="projeler-40istasyonlondra-thumb-01.jpg" cap="Kişinin İsmi" width="184" sub="0" imagewidth="382" imageheight="380">projeler-40istasyonlondra-01.jpg</image>
+			<image thumbnail="projeler-40istasyonlondra-thumb-02.jpg" cap="Kişinin İsmi" width="184" sub="0" imagewidth="381" imageheight="380">projeler-40istasyonlondra-02.jpg</image>
+			<image thumbnail="projeler-40istasyonlondra-thumb-03.jpg" cap="Kişinin İsmi" width="184" sub="0" imagewidth="386" imageheight="380">projeler-40istasyonlondra-03.jpg</image>
+			<image thumbnail="projeler-40istasyonlondra-thumb-04.jpg" cap="Kişinin İsmi" width="184" sub="0" imagewidth="378" imageheight="380">projeler-40istasyonlondra-04.jpg</image>
+		</item>
+		<item name="40 İstasyon New York" thumbnail="projeler-40istasyonnewyork-thumb.jpg" cap="" width="187" sub="1">
+			<image thumbnail="projeler-40istasyonnewyork-thumb-00.jpg" cap="Kişinin İsmi" width="184" sub="0" imagewidth="381" imageheight="380">projeler-40istasyonnewyork-00.jpg</image>
+			<image thumbnail="projeler-40istasyonnewyork-thumb-01.jpg" cap="Kişinin İsmi" width="184" sub="0" imagewidth="379" imageheight="380">projeler-40istasyonnewyork-01.jpg</image>
+			<image thumbnail="projeler-40istasyonnewyork-thumb-02.jpg" cap="Kişinin İsmi" width="184" sub="0" imagewidth="382" imageheight="380">projeler-40istasyonnewyork-02.jpg</image>
+			<image thumbnail="projeler-40istasyonnewyork-thumb-03.jpg" cap="Kişinin İsmi" width="184" sub="0" imagewidth="382" imageheight="380">projeler-40istasyonnewyork-03.jpg</image>
+			<image thumbnail="projeler-40istasyonnewyork-thumb-04.jpg" cap="Kişinin İsmi" width="184" sub="0" imagewidth="381" imageheight="380">projeler-40istasyonnewyork-04.jpg</image>
+		</item>
+		<item name="40 İstasyon Paris" thumbnail="projeler-40istasyonparis-thumb.jpg" cap="" width="182" sub="1">
+			<image thumbnail="projeler-40istasyonparis-thumb-00.jpg" cap="Kişinin İsmi" width="184" sub="0" imagewidth="380" imageheight="380">projeler-40istasyonparis-00.jpg</image>
+			<image thumbnail="projeler-40istasyonparis-thumb-01.jpg" cap="Kişinin İsmi" width="184" sub="0" imagewidth="381" imageheight="380">projeler-40istasyonparis-01.jpg</image>
+			<image thumbnail="projeler-40istasyonparis-thumb-02.jpg" cap="Kişinin İsmi" width="184" sub="0" imagewidth="378" imageheight="380">projeler-40istasyonparis-02.jpg</image>
+			<image thumbnail="projeler-40istasyonparis-thumb-03.jpg" cap="Kişinin İsmi" width="184" sub="0" imagewidth="386" imageheight="380">projeler-40istasyonparis-03.jpg</image>
+			<image thumbnail="projeler-40istasyonparis-thumb-04.jpg" cap="Kişinin İsmi" width="184" sub="0" imagewidth="380" imageheight="380">projeler-40istasyonparis-04.jpg</image>
+		</item>
+	</projeler>
+	
+	<hakkinda>
+		<biyografi>
+			<picture>
+				<![CDATA[hakkinda.gif]]>
+			</picture>
+			<text>
+				<![CDATA[Muammer Yanmaz 1969 İstanbul doğumludur. Orta öğrenimini Saint-Michel Lisesi'nde tamamlamıştır. Lisenin karanlık odasında başladığı fotoğraf sanatını bir yaşam biçmine dönüştürülmüştür. Kendi stüdyosunda tanıtım fotoğrafçılığı yapmakta olan Yanmaz'ın; 40 Yönetmen, 40 İstasyon Paris, 40 İstasyon New York, Kadın Oyuncular, Kadın Yönetmenler, 40 Ayna gibi sergilenmiş projeleri vardır. Fotoğraf dersleri de veren Yanmaz, kurduğu 40 Haramiler fotoğraf grubunda, fotoğrafı paylaşmaya devam etmektedir.]]>
+			</text>
+		</biyografi>
+		<sergiler>
+			<item name="40 İstasyon Londra" thumbnail="sergiler-40istasyonlondra-thumb.jpg" cap="40 İstasyon Londra" width="185" sub="0" imagewidth="1200" imageheight="1200">sergiler-40istasyonlondra.jpg</item>
+			<item name="40 İstasyon Londra" thumbnail="sergiler-40istasyonnewyork-thumb.jpg" cap="40 İstasyon Londra" width="187" sub="0" imagewidth="1200" imageheight="1200">sergiler-40istasyonnewyork.jpg</item>
+			<item name="40 İstasyon Londra" thumbnail="sergiler-40istasyonparis-thumb.jpg" cap="40 İstasyon Londra" width="182" sub="0" imagewidth="1200" imageheight="1200">sergiler-40istasyonparis.jpg</item>
+		</sergiler>
+	</hakkinda>
+	
+	<studyo>
+		<item name="" thumbnail="studyo-00-thumb.jpg" cap="" width="276" sub="0" imagewidth="1000" imageheight="667">studyo-00.jpg</item>
+		<item name="" thumbnail="studyo-01-thumb.jpg" cap="" width="276" sub="0" imagewidth="1000" imageheight="667">studyo-01.jpg</item>
+		<item name="" thumbnail="studyo-02-thumb.jpg" cap="" width="272" sub="0" imagewidth="1000" imageheight="676">studyo-02.jpg</item>
+		<item name="" thumbnail="studyo-03-thumb.jpg" cap="" width="352" sub="0" imagewidth="1000" imageheight="239">studyo-03.jpg</item>
+	</studyo>
+	
+	<atolye>
+		<item name="" thumbnail="atolye-thumb-01.jpg" cap="" width="184" sub="0" imagewidth="1200" imageheight="1200">atolye-01.jpg</item>
+		<item name="" thumbnail="atolye-thumb-02.jpg" cap="" width="184" sub="0" imagewidth="1200" imageheight="1200">atolye-02.jpg</item>
+		<item name="" thumbnail="atolye-thumb-03.jpg" cap="" width="184" sub="0" imagewidth="1200" imageheight="1200">atolye-03.jpg</item>
+	</atolye>
+	
+</data>
